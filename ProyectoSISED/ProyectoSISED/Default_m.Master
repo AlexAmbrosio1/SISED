@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default_m.master.cs" Inherits="ProyectoSISED.Default_m" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <link href="Css/estilo.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header >
+        <section class="row">
+
+            <div class="col-md-8">
+                <img src="Imagenes/logo.PNG" width="100", height="50"/>
+            </div>
+
+            <div class="col-md-4">
+                <input type="button" value="Iniciar Sesión"/>
+                <input type="button" value="Regístrate"/>
+            </div>
+        
+        </section>
+        <nav class="navbar navbar-defualt">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a class=" dropdown-toggle" type="button" data-toggle="dropdown" href="#">Quienes somos</a>
+                </li>
+                <li>
+                    <a class=" dropdown-toggle" type="button" data-toggle="dropdown" href="#">Como funciona</a>
+                </li>
+                <li>
+                    <a class=" dropdown-toggle" type="button" data-toggle="dropdown" href="">Cerca de ti</a>
+                </li>
+            </ul>
+
+            
+        </nav>
+    </header>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

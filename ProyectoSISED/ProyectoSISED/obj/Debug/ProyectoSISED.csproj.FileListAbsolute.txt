@@ -1,0 +1,6 @@
+C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll.config
+C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll
+C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.pdb
+C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.dll
+C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.pdb
