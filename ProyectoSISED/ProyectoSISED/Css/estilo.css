@@ -26,10 +26,17 @@ body {
     margin-right: 10px;
 }
 
+#headerMasterP div div:first-child span{
+    margin-right: 0px;
+}
+
+/*Css home*/
+
 #princiPB {
     max-width:100%;
     padding: 1px;
 }
+
 #ComoFunciona {
     padding-top: 20px;
 }

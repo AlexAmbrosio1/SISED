@@ -37,8 +37,8 @@
             <div class="collapse navbar-collapse" id="menuMaster1">
 
               <ul class="nav navbar-nav">
-                <li><a href="#"><span class="icon-bullhorn"></span>Quienes somos</a></li>
-                <li><a href="#"><span class="icon-briefcase"></span>Como funciona</a></li>
+                <li><a href="#QuienesSomos"><span class="icon-bullhorn"></span>Quienes somos</a></li>
+                <li><a href="#ComoFunciona"><span class="icon-briefcase"></span>Como funciona</a></li>
                 <li><a href="#"><span class="icon-mail4"></span>Contactenos</a></li>
               </ul>
 
