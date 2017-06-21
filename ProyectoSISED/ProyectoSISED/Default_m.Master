@@ -8,11 +8,8 @@
     <title></title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
-
-    <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"/>
 
-    <!-- Latest compiled and minified JavaScript -->
     <link href="Css/estilo.css" rel="stylesheet" />
     <link href="font.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
@@ -22,23 +19,50 @@
 
 </head>
 <body>
-    <header id="headerMaster">
-        
-        <div class="menu_bara">
-			<a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
-		</div>
 
-        <nav>
-            <ul>
-                <li><a  class="log" href="WebForm1.aspx"><img src="Imagenes/LogoSised.png" alt="Home"/></a></li>
+    <header >
+        <nav class="navbar navbar-default navbar-fixed-top" id="headerMasterP">
+          <div class="container-fluid">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuMaster1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">SISED</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="menuMaster1">
+
+              <ul class="nav navbar-nav">
                 <li><a href="#"><span class="icon-bullhorn"></span>Quienes somos</a></li>
                 <li><a href="#"><span class="icon-briefcase"></span>Como funciona</a></li>
                 <li><a href="#"><span class="icon-mail4"></span>Contactenos</a></li>
+              </ul>
+
+              <!--
+                <form class="navbar-form navbar-left">
+
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search"/>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+                -->
+
+              <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="icon-user"></span>Inicias sesión</a></li>
                 <li><a href="#"><span class="icon-user-plus"></span>Registrarse</a></li>
-            </ul> 
-        </nav>
+              </ul>
 
+            </div><!-- /.navbar-collapse -->
+
+          </div><!-- /.container-fluid -->
+
+        </nav>﻿
     </header>
 
     <form id="form1" runat="server">
@@ -50,10 +74,22 @@
     </form>
 
     <footer>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy SISED - USIL</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline text-right">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Otros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="Js/menuIni.js"></script>
 </body>

@@ -6,103 +6,44 @@
 /*estilos del header*/
 body {
     font-family: Arial;
-    padding-top: 80px;
     background: #F3F6F6;
 }
 
-#headerMaster {
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-}
-
-#headerMaster img{
-    width: 100px;
-    height: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#headerMaster nav {
+#headerMasterP {
     background: #40514E;
+    
 }
 
-
-
-.menu_bara {
-    display: none;
+#headerMasterP a{
+    color: #FFF;
 }
 
-
-#headerMaster nav ul {
-    overflow: hidden;
-    list-style: none;
-}
-
-#headerMaster nav ul li {
-    float: left;
-}
-
-
-
-#headerMaster nav ul li a {
-    color: #fff;
-    padding: 20px;
-    display: block;
-    text-decoration: none;
-}
-
-#headerMaster nav ul li:first-child a {
-    padding: 0px;
-}
-
-#headerMaster nav ul li span {
-    margin-right: 10px;
-}
-
-header nav ul li a:hover {
+#headerMasterP a:hover {
     background: #11999E;
 }
 
+#headerMasterP span {
+    margin-right: 10px;
+}
 
+#princiPB {
+    max-width:100%;
+    padding: 1px;
+}
+#ComoFunciona {
+    padding-top: 20px;
+}
 
-@media screen and (max-width:900px ) {
-    #headerMaster nav {
-        width: 80%;
-        height: 100%;
-        left: -100%;
-        margin: 0;
-        position: fixed;
-    }
-
-    #headerMaster nav ul li {
-        display: block;
-        float: none;
-        border-bottom: 1px solid rgba(255,255,255, .3);
-    }
-
-    .menu_bara {
-        display: block;
-        width: 100%;
-        background: #ccc;
-    }
-
-    .menu_bara .bt-menu {
-        display: block;
-        padding: 20px;
-        background: #40514E;
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 25px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-
-    .menu_bara span {
-        float: right;
-        font-size: 40px;
-    }
+#ComoFunciona div div {
+    padding-top: 20px;
+    border: 1px solid #4cff00;
+    height: 500px;
+    margin: 30px;
+}
+#ComoFunciona div div p{
+    padding-top: 20px;
+}
+#ComoFunciona img{
+    border-radius:50%;
+    border: 2px solid black;
 }
