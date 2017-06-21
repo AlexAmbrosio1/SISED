@@ -4,3 +4,9 @@ C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.pd
 C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.dll
 C:\Users\alumno\Pictures\Junior\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.pdb
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll.config
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.pdb
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.dll
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.pdb

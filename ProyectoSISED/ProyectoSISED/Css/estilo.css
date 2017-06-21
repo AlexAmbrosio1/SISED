@@ -1,16 +1,108 @@
-﻿body {
-    font-family: Arial;
-    width: 80%;
-    margin: auto;
+﻿*{
+    margin: 0;
+    padding: 0;
 }
 
-header input{
-    margin-top:15px;
+/*estilos del header*/
+body {
+    font-family: Arial;
+    padding-top: 80px;
+    background: #F3F6F6;
 }
-header{
-    background-color: #040003;
+
+#headerMaster {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
-header nav{
-    background-color: #eeeeee;
-    
+
+#headerMaster img{
+    width: 100px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#headerMaster nav {
+    background: #40514E;
+}
+
+
+
+.menu_bara {
+    display: none;
+}
+
+
+#headerMaster nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+#headerMaster nav ul li {
+    float: left;
+}
+
+
+
+#headerMaster nav ul li a {
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+#headerMaster nav ul li:first-child a {
+    padding: 0px;
+}
+
+#headerMaster nav ul li span {
+    margin-right: 10px;
+}
+
+header nav ul li a:hover {
+    background: #11999E;
+}
+
+
+
+@media screen and (max-width:900px ) {
+    #headerMaster nav {
+        width: 80%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+
+    #headerMaster nav ul li {
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255,255,255, .3);
+    }
+
+    .menu_bara {
+        display: block;
+        width: 100%;
+        background: #ccc;
+    }
+
+    .menu_bara .bt-menu {
+        display: block;
+        padding: 20px;
+        background: #40514E;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .menu_bara span {
+        float: right;
+        font-size: 40px;
+    }
 }
