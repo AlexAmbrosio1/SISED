@@ -1,5 +1,5 @@
 # SISED
-pagina **pagina de servicios**
+**Pagina de Servicios**
 
 **SISED** es una página dirigida a dos tipos de público, uno aquellos que buscan personal confiable para los quehaceres de su hogar, dos, también te permitimos ofrecer tus servicios para las labores del hogar, en esta plataforma te recomendares de acuerdo con tu trabajo.
 
