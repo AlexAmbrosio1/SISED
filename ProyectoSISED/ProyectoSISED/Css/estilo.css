@@ -54,3 +54,18 @@ body {
     border-radius:50%;
     border: 2px solid black;
 }
+
+/*CSS PARA INICIO DE SESION*/
+#InicioSesion {
+    font-size:20px;
+    margin:auto;
+    height:300px;
+    width:300px;
+    background-color:skyblue;
+}
+#InicioSesion img{
+    margin-left:30%;
+}
+#Usuaro{
+    border:1px solid red;
+}

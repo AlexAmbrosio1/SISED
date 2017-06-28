@@ -54,8 +54,8 @@
                 -->
 
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="icon-user"></span>Inicias sesión</a></li>
-                <li><a href="#"><span class="icon-user-plus"></span>Registrarse</a></li>
+                <li><a href="IniciarSesion.aspx"><span class="icon-user"></span>Inicias sesión</a></li>
+                <li><a href="Registrarte.aspx"><span class="icon-user-plus"></span>Registrarse</a></li>
               </ul>
 
             </div><!-- /.navbar-collapse -->

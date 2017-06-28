@@ -76,6 +76,7 @@
     <Content Include="Imagenes\logo.PNG" />
     <Content Include="font.css" />
     <Content Include="Imagenes\LogoSised.png" />
+    <Content Include="IniciarSesion.html" />
     <Content Include="Js\menuIni.js" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
