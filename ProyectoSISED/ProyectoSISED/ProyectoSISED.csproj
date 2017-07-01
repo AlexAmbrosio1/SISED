@@ -78,6 +78,7 @@
     <Content Include="font.css" />
     <Content Include="Imagenes\LogoSised.png" />
     <Content Include="Js\menuIni.js" />
+    <Content Include="Registrarte.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
   </ItemGroup>
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registrarte.aspx.cs">
+      <DependentUpon>Registrarte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrarte.aspx.designer.cs">
+      <DependentUpon>Registrarte.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

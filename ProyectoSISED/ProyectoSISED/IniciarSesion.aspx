@@ -6,7 +6,7 @@
     <section id ="InicioSesion">
         <header><img width="100" src="Imagenes/logo.PNG" /></header>
         <div id="letras">
-            <p>Nombre de usuario</p>
+            <p>EMAIL</p>
             <input id="UC" type="text" />
             <p>Contraseña</p>
             <input id="UC" type="password" />
@@ -15,8 +15,9 @@
             <br /><br />
             <input id="BEntrar" type="button" value="Entrar" />
             <br /><br />
-            Si no tienes una cuenta en SISED <a href="#">regístrate</a>
+            Si no tienes una cuenta en SISED <a href="Registrarte.aspx">regístrate</a>
         </div>
+            
     </section>
 </body>
 </asp:Content>

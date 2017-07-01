@@ -59,7 +59,7 @@ body {
 #InicioSesion {
     font-size:20px;
     margin:auto;
-    height:400px;
+    height:500px;
     width:400px;
     background-color:skyblue;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 #BEntrar {
-    background-color:#11999E;
+    background-color: #11999E;
     margin: auto;
     margin-left: 5%;
     width: 90%;
