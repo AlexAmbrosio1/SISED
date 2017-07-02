@@ -55,6 +55,38 @@ body {
     border: 2px solid black;
 }
 
+/*Footer*/
+footer {
+    border: 1px solid white;
+    background: #40514E;
+    padding: 2%;
+}
+
+    footer a, p, span {
+        color: #FFF;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    footer a:hover {
+        background: #11999E;
+    }
+
+#Terminos {
+    padding: 3% 10%;
+}
+
+    #Terminos h2 {
+        text-align: center;
+    }
+
+.terminosP {
+    color: black;
+    text-align: justify;
+}
+
 /*CSS PARA INICIO DE SESION*/
 #InicioSesion {
     font-size:20px;

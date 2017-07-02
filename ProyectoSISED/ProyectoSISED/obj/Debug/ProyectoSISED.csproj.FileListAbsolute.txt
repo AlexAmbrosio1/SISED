@@ -22,3 +22,9 @@ C:\Users\Mercedes\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\Proyect
 C:\Users\Mercedes\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.csprojResolveAssemblyReference.cache
 C:\Users\Mercedes\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.dll
 C:\Users\Mercedes\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.pdb
+C:\Users\iPC\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll.config
+C:\Users\iPC\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll
+C:\Users\iPC\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.pdb
+C:\Users\iPC\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.csprojResolveAssemblyReference.cache
+C:\Users\iPC\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.dll
+C:\Users\iPC\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Debug\ProyectoSISED.pdb

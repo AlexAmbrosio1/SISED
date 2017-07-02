@@ -79,6 +79,7 @@
     <Content Include="Imagenes\LogoSised.png" />
     <Content Include="Js\menuIni.js" />
     <Content Include="Registrarte.aspx" />
+    <Content Include="TerminosyC.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
   </ItemGroup>
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="Registrarte.aspx.designer.cs">
       <DependentUpon>Registrarte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TerminosyC.aspx.cs">
+      <DependentUpon>TerminosyC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TerminosyC.aspx.designer.cs">
+      <DependentUpon>TerminosyC.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
