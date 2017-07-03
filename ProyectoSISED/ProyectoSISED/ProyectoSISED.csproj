@@ -78,6 +78,7 @@
     <Content Include="font.css" />
     <Content Include="Imagenes\LogoSised.png" />
     <Content Include="Js\menuIni.js" />
+    <Content Include="QuinesSomos.aspx" />
     <Content Include="Registrarte.aspx" />
     <Content Include="TerminosyC.aspx" />
     <Content Include="Web.config" />
@@ -108,6 +109,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuinesSomos.aspx.cs">
+      <DependentUpon>QuinesSomos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuinesSomos.aspx.designer.cs">
+      <DependentUpon>QuinesSomos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registrarte.aspx.cs">
       <DependentUpon>Registrarte.aspx</DependentUpon>

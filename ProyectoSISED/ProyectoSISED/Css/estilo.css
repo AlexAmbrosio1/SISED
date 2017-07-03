@@ -60,6 +60,7 @@ footer {
     border: 1px solid white;
     background: #40514E;
     padding: 2%;
+    clear:both;
 }
 
     footer a, p, span {
@@ -91,9 +92,9 @@ footer {
 #InicioSesion {
     font-size:20px;
     margin:auto;
-    height:500px;
     width:400px;
     background-color:skyblue;
+    padding-top:30px;
 }
 #InicioSesion img{
     margin-left:30%;
@@ -110,10 +111,30 @@ footer {
     margin-left: 5%;
     height: 50px;
 }
-
 #BEntrar {
     background-color: #11999E;
     margin: auto;
     margin-left: 5%;
     width: 90%;
+}
+/*QUIENES SOMOS*/
+
+#QuienesSomos1{
+    float:right;
+    width:65%;
+    height:100%;
+}
+    #QuienesSomos1 p {
+        color: black;
+        text-align: justify;
+        padding-right:30px;
+}
+#ImagenQS {
+    padding-left:30px;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+#TodoQS{
+    padding-top:20px;
 }
