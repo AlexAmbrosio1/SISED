@@ -94,10 +94,9 @@ footer {
     border: 1px solid white;
     background: #40514E;
     padding: 2%;
-    clear:both;
 }
 
-footer a, p, span {
+footer p, span {
     color: #FFF;
 }
 
