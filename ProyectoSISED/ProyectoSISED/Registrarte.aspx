@@ -15,6 +15,15 @@
                 <br /><br />
                 <input id="BEntrar" type="button" value="Registrarme" />                
                 ¿Ya tienes cuenta? <a  href="IniciarSesion.aspx">Ingresa aquí</a>
+                <br /><br />
+             </div>
+            <div class="CajaRadio">
+                <input id="SerSISED" type="radio" />
+                <label for="SerSISED">Quiero trabajar como SISED</label>    
+                <br /><br />
+                <input id="AyudaSISED" type="radio" />                
+                <label for="AyudaSISED">Necesito ayuda para mi hogar</label>
             </div>
+        
      </div>    
 </asp:Content>
