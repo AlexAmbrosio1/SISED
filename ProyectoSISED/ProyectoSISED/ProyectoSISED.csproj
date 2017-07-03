@@ -73,12 +73,16 @@
     <Content Include="Css\estilo.css" />
     <Content Include="fonts\icomoon.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Imagenes\image.jpg" />
+    <Content Include="Imagenes\imagen_1.jpg" />
+    <Content Include="Imagenes\imagen_2.jpg" />
     <Content Include="IniciarSesion.aspx" />
     <Content Include="Imagenes\logo.PNG" />
     <Content Include="font.css" />
     <Content Include="Imagenes\LogoSised.png" />
     <Content Include="Js\menuIni.js" />
     <Content Include="Registrarte.aspx" />
+    <Content Include="Servicios.aspx" />
     <Content Include="TerminosyC.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
@@ -115,6 +119,13 @@
     </Compile>
     <Compile Include="Registrarte.aspx.designer.cs">
       <DependentUpon>Registrarte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios.aspx.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Servicios.aspx.designer.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
     </Compile>
     <Compile Include="TerminosyC.aspx.cs">
       <DependentUpon>TerminosyC.aspx</DependentUpon>

@@ -50,27 +50,28 @@
         <div id="ComoFunciona" class="row">
             <div class="col-md-4">
                 <div class="text-center">
-                    <h2>Registrate</h2>
+                    <a href="Servicios.aspx"><h2>Nuestros Servicios</h2></a>
                     <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
                     <p>
-                        "Aquí llenan datos y mas y mas y mas y mas y mas datos"
+                       Te brindamos servicios de calidad, con personales capacitados en el
+                        area que desee, encuentrelos aqui.
                     </p>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="text-center">
-                    <h2>Llena tus datos</h2>
+                   <h2>Trabaja con nosotros</h2>
                     <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
                     <p>
-                        "Aquí llenan datos y mas y mas y mas y mas y mas datos"
+                         Te ofrecemos la mejor oportunidad, trabaja con nosotros y se parte de nuestra familia. Inscribite aqui.
                     </p>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="text-center">
-                    <h2>Experimenta</h2>
+                    <h2>Actualicemonos</h2>
                     <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
                     <p>
                         "Aquí llenan datos y mas y mas y mas y mas y mas datos"

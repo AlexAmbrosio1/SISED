@@ -7,6 +7,7 @@
 body {
     font-family: Arial;
     background: #F3F6F6;
+   
 }
 
 #headerMasterP {
@@ -47,9 +48,10 @@ body {
     height: 500px;
     margin: 30px;
 }
-#ComoFunciona div div p{
-    padding-top: 20px;
-}
+    #ComoFunciona div div p {
+        padding-top: 20px;
+        color: black;
+    }
 #ComoFunciona img{
     border-radius:50%;
     border: 2px solid black;
@@ -117,3 +119,33 @@ footer {
     margin-left: 5%;
     width: 90%;
 }
+
+/*Servicios*/
+#botonesTrabajo{
+    text-align: center;
+    padding: 18px 30px;
+    margin: 10px;
+    font-weight: 600;
+    border-radius: 16px;
+    background-color: rgb(176,224,230);
+}
+
+#Servicio {
+    padding-top: 0px;
+}
+
+#Servicio div div {
+        padding-top: 20px;
+        height: 500px;
+        margin: 30px;
+ }
+
+#Servicio div div p {
+            padding-top: 20px;
+            color: black;
+            text-align: justify;
+        }
+
+#Servicio img {
+        border: 2px solid black;
+    }

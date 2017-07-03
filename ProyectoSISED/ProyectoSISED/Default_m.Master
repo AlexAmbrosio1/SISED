@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">SISED</a>
+              <a class="navbar-brand" href="Home.aspx">SISED</a>
             </div>
 
             <div class="collapse navbar-collapse" id="menuMaster1">
