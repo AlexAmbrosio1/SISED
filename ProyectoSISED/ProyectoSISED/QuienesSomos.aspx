@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">  
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
 
-        <div class="row" id="QuienesSomos1">        
+        <div  id="QuienesSomos1">        
             <div id="slideCar1" class="carousel slide" data-ride="carousel">
                 <link href="Css/estilo.css" rel="stylesheet" />
                 <h1>Quines Somos</h1>
