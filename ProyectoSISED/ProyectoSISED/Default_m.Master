@@ -76,12 +76,12 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div>
+                <div class="col-md-12">
                     <p > Nos encontramos en la Av. Flora Tristan 620, La Molina 15024 </p>
                     <p>Atendemos los dias  Lunes y Miercoles de 8am a 1pm</p>                 
                     <a href="TerminosyC.aspx"><p>Terminos y condiciones</p></a>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.637207138474!2d-76.94529048585599!3d-12.068464045588792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6e845843827%3A0x9ab4d8ad8ca5bad9!2sAv.+Flora+Tristan+620%2C+La+Molina+15024!5e0!3m2!1ses-419!2spe!4v1499020661396" width="600" height="200" frameborder="0" style= "margin-left:25%" style="border:0" allowfullscreen></iframe>
+                <iframe class="col-md-12 pull-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.637207138474!2d-76.94529048585599!3d-12.068464045588792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6e845843827%3A0x9ab4d8ad8ca5bad9!2sAv.+Flora+Tristan+620%2C+La+Molina+15024!5e0!3m2!1ses-419!2spe!4v1499020661396" width="600" height="200" frameborder="0" style= "margin-left:25%" style="border:0" allowfullscreen></iframe>
                  
                 <div class="col-md-6">
                     <span>&copy SISED - USIL</span>

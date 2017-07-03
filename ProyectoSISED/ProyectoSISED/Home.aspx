@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container-fluid" id="princiPB">
+    <div class="container" id="princiPB">
         <div id="QuienesSomos">
             <div id="slideCar1" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -13,21 +13,21 @@
 
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="http://lorempixel.com/1400/700" class="img-responsive" alt=""/>
+                        <img src="http://lorempixel.com/1800/700"class="im-responsive" />
                         <div class="carousel-caption">
                             <h3>Somos bla bla bla...</h3>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="http://lorempixel.com/1400/700" class="img-responsive" alt=""/>
+                        <img src="http://lorempixel.com/1800/700" class="img-responsive" />
                         <div class="carousel-caption">
                             <h3>Somos bla bla bla...</h3>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="http://lorempixel.com/1400/700" class="img-responsive" alt=""/>
+                        <img src="http://lorempixel.com/1800/700" class="img-responsive" />
                         <div class="carousel-caption">
                             <h3>Somos bla bla bla...</h3>
                         </div>
@@ -50,8 +50,10 @@
         <div id="ComoFunciona" class="row">
             <div class="col-md-4">
                 <div class="text-center">
-                    <a href="Servicios.aspx"><h2>Nuestros Servicios</h2></a>
-                    <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
+                    <div  class="titleHome">
+                        <a href="Servicios.aspx"><h2>Nuestros Servicios</h2></a>
+                    </div>
+                    <a><img src="http://1.bp.blogspot.com/-T_TlVnJc3uM/U3sL8WkIG8I/AAAAAAAAAcc/L_JRUnoaKEo/s1600/filipina+web+1.PNG"/></a>
                     <p>
                        Te brindamos servicios de calidad, con personales capacitados en el
                         area que desee, encuentrelos aqui.
@@ -61,7 +63,9 @@
 
             <div class="col-md-4">
                 <div class="text-center">
-                   <h2>Trabaja con nosotros</h2>
+                    <div class="titleHome">
+                        <a href="#"><h2>Trabaja con nosotros</h2></a>
+                    </div>
                     <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
                     <p>
                          Te ofrecemos la mejor oportunidad, trabaja con nosotros y se parte de nuestra familia. Inscribite aqui.
@@ -71,7 +75,9 @@
 
             <div class="col-md-4">
                 <div class="text-center">
-                    <h2>Actualicemonos</h2>
+                    <div  class="titleHome">
+                        <a href="#"><h2>Actualicemonos</h2></a>
+                    </div>
                     <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
                     <p>
                         "Aquí llenan datos y mas y mas y mas y mas y mas datos"
