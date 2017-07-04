@@ -2,20 +2,21 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id ="InicioSesion">
-        <link href="Css/estilo.css" rel="stylesheet" />    
-            <header><img width="100" src="Imagenes/logo.PNG" /></header>
-            <div id="letras">
-                <p>EMAIL</p>
-                <input id="UC" type="text" />
-                <p>Contraseña</p>
-                <input id="UC" type="password" />
-                <br />
-                <a id="OlvContra" href="#">¿Olvidaste tu contraseña?</a>
-                <br /><br />
-                <input id="BEntrar" type="button" value="Entrar" />
-                <br /><br />
-                Si no tienes una cuenta en SISED <a href="Registrarte.aspx">regístrate</a>
-            </div>
+    <div class="container" id="gaIniciarSesion">
+        <form >
+          <div class="form-group">
+            <label for="Iniemail">Correo:</label>
+            <input type="email" class="form-control" id="Iniemail"/>
+          </div>
+          <div class="form-group">
+            <label for="Inipwd">Contraseña:</label>
+            <input type="password" class="form-control" id="Inipwd"/>
+              <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+          <!-- <div class="checkbox"> 
+            <label><input type="checkbox"/> Remember me</label>
+          </div> -->
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
 </asp:Content>
