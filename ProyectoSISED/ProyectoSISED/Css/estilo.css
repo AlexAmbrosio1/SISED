@@ -120,14 +120,13 @@ footer a:hover {
     color: black;
     text-align: justify;
 }
-
 /*CSS PARA INICIO DE SESION*/
 #InicioSesion {
-    font-size:20px;
-    margin:auto;
-    width:400px;
-    background-color:skyblue;
-    padding-top:30px;
+    font-size: 20px;
+    margin: auto;
+    width: 400px;
+    background-color: skyblue;
+    padding-top: 30px;
 }
 
 #InicioSesion p{

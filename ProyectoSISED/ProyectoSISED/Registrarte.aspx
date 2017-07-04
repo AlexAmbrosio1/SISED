@@ -3,9 +3,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="container" style="padding-top: 50px;">
+    <div class="container" style="padding-top: 50px; margin-left:0px;">
         <div class="row">
             <div class="col-md-8">
+                <link href="Css/estilo.css" rel="stylesheet" />
+                <img width="1300" src="Imagenes/limpieza_hab.jpg"/>
                 <!-- Aquí completas con la imagen-->
             </div>
         
