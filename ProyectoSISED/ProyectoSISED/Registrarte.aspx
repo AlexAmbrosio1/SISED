@@ -30,7 +30,7 @@
                         <input type="password" class="form-control" id="sRpwd"/>
                     </div>
                     <div class="checkbox">
-                        <label><input type="checkbox"/> Aceptar <a>terminos y conidiciones</a></label>
+                        <label><input type="checkbox"/> Aceptar <a href="#">terminos y conidiciones</a></label>
                     </div>
                     <button type="submit" class="btn btn-default">Registrar</button>
                 </form>
