@@ -122,35 +122,6 @@ footer a:hover {
     text-align: justify;
 }
 
-/*CSS PARA INICIO DE SESION*/
-/*#InicioSesion {
-    font-size:20px;
-    margin:auto;
-    width:400px;
-    background-color:skyblue;
-    padding-top:30px;
-}
-
-#InicioSesion p{
-    margin-left:5%;
-}
-#OlvContra {
-    margin-left: 5%;
-    font-size: 15px;
-}
-#UC {
-    width: 90%;
-    margin-left: 5%;
-    height: 50px;
-}
-#BEntrar {
-    background-color: #11999E;
-    margin: auto;
-    margin-left: 5%;
-    width: 90%;
-}
-*/
-
 /*Servicios*/
 #botonesTrabajo{
     text-align: center;
@@ -199,6 +170,8 @@ footer a:hover {
    color: black;
    text-align: justify;
 }
+
+/*CSS PARA INICIO DE SESION*/
 
 #gaIniciarSesion{
     background: url(http://servioptimus.com/wp-content/uploads/2016/06/1-1100-620x310.jpg);
@@ -259,17 +232,28 @@ footer a:hover {
     top: 0;
 }
 
+
+/*CSS  REGISTARSE*/
 #RegistarID {
-    margin-left:-5px;
-    background-image: url("http://image.posta.com.mx/sites/default/files/servicio-domestico.jpg");
+    margin-left: -5px;
+    background-image: url("../Imagenes/FondoR.jpg");
     background-size: 1500px;
     color: white;
 }
+
+
 #RegistarID > div > div > div:last-child {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(0,0,0,0.7);
 }
+    #RegistarID > div > div > div > p {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width:300px;
+        background-color: rgba(0,0,0,0.7);
+        border:1px solid;
+    }
 #RegistarID > div {
     height: 500px;
 }#RegistarID .glyphicon {

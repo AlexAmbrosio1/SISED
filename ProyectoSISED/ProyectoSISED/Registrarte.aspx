@@ -7,8 +7,8 @@
         <div class="container" style="padding-top: 50px;">
             <div class="row">
                 <div class="col-md-7">
-                    <!--<img width="1300" src="Imagenes/limpieza_hab.jpg"/> -->
-                    <!-- Aquí completas con la imagen-->
+                    <p>-Cuando se registres como usuario de SISED, si quieres ayuda en tu hogar entonces tendrás un servicio de calidad y confiabilidad
+                    <br />-Pero si quieres ser parte de SISED tu trabajo tendrá su pago correspondiente</p>
                 </div>
                 
                 <div class="col-md-5 text-center">
@@ -41,10 +41,43 @@
                             </div>
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox"/> Aceptar <a href="#">terminos y conidiciones</a>
+                            <input type="checkbox"/> Aceptar <a href="#VentanaTerminos" data-toggle="modal">terminos y conidiciones</a>
+                            <div class="modal fade" id="VentanaTerminos">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h2 class="modal-title" >TÉRMINOS Y CONDICIONES</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                    <h3 class="terminosP">PROPIEDAD INTELECTUAL</h3>
+			                        <p class="terminosP">Los derechos relativos a la propiedad intelectual sea marca, logotipo, texto, fotografía, iconos, imágenes entre otros elementos de software 
+			                        contenidos en esta página Web son propiedad única de SiSed y de las empresas representantes y fábricas de los productos ofertados,
+			                        por ende, cuenta con las licencias necesarias para su utilización y están protegidos por la legislación peruana e internacional.</p>
+			
+			                        <h3 class="terminosP">OBJETO Y ACTIVIDAD</h3>
+			                        <p class="terminosP">SiSed es una pagina Web  dirigida a dos tipos de público, uno aquellos que buscan personal confiable para los quehaceres de su hogar, dos, también te permitimos ofrecer tus servicios para las labores del hogar, en esta plataforma te recomendares de acuerdo con tu trabajo. </p>
+			
+			                        <h3 class="terminosP">CUENTA DE USUARIO</h3>
+			                        <p class="terminosP">Para obtener una mejor experiencia al utilizar ciertas secciones y características de los servicios de SiSed.com, podrá optar 
+			                        por registrarse y crear una cuenta en SiSed (Cuenta de Usuario).</p>
+			
+			                        <h3>PERSONAS ADMITIDOS</h3>
+			                        <p class="terminosP">Solamente estarán admitidos para realizar pedidos mediante la presente tienda on line aquellas personas que hayan alcanzado la mayoría de edad 
+			                        legal en su país de residencia fiscal, posean la capacidad jurídica para celebrar contratos.
+			                        </p>
+                                    <hr />
+                                    <a href="Home.aspx"><p class="terminosP"><strong>Regresar</strong></p></a>		
+                            </div>
+        </div>
+    </div>
+                            </div>
                         </div>
                         <!--<button type="submit" class="seBotonIniciar">Registrar</button>-->
                         <asp:Button ID="sebtnRegistrarse" runat="server" Text="Registrarse" CssClass="seBotonIniciar"/>
+                        <div>
+                        <asp:RadioButtonList ID="RadioButtonList1" runat="server"></asp:RadioButtonList>
+                    </div>
                     </div>
                 </div>
             </div>
