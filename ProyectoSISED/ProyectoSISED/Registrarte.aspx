@@ -12,7 +12,7 @@
                 </div>
                 
                 <div class="col-md-5 text-center">
-                    <form action="#smRegistrar" data-toggle="modal">
+                    <div>
                         <label>Registrate en SISED</label>
                         <div class="form-group">
                             <div class="input-group input-group-lg">
@@ -43,8 +43,9 @@
                         <div class="checkbox">
                             <input type="checkbox"/> Aceptar <a href="#">terminos y conidiciones</a>
                         </div>
-                        <button type="submit" class="seBotonIniciar">Registrar</button>
-                    </form>
+                        <!--<button type="submit" class="seBotonIniciar">Registrar</button>-->
+                        <asp:Button ID="sebtnRegistrarse" runat="server" Text="Registrarse" CssClass="seBotonIniciar"/>
+                    </div>
                 </div>
             </div>
         </div>

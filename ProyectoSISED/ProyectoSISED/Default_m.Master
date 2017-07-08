@@ -66,11 +66,11 @@
     </header>
 
     
-    <div>
+    <form id="form1" runat="server">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-    </div>
+    </form>
 
     <footer>
         <div class="container">
