@@ -1,0 +1,5 @@
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll.config
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.dll
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\bin\ProyectoSISED.pdb
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Release\ProyectoSISED.dll
+C:\Users\Sebastian\Documents\GitHub\SISED\ProyectoSISED\ProyectoSISED\obj\Release\ProyectoSISED.pdb

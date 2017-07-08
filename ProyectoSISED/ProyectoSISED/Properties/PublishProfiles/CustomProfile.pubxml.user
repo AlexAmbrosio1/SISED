@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\SISED</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ProyectoSISED.dll">
+      <publishTime>07/07/2017 22:19:08</publishTime>
+    </File>
+    <File Include="ComoFunciona.aspx">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Css/estilo.css">
+      <publishTime>07/07/2017 21:55:22</publishTime>
+    </File>
+    <File Include="Default_m.Master">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="font.css">
+      <publishTime>07/07/2017 19:34:51</publishTime>
+    </File>
+    <File Include="fonts/icomoon.eot">
+      <publishTime>07/07/2017 19:34:51</publishTime>
+    </File>
+    <File Include="fonts/icomoon.svg">
+      <publishTime>07/07/2017 19:34:51</publishTime>
+    </File>
+    <File Include="fonts/icomoon.ttf">
+      <publishTime>07/07/2017 19:34:51</publishTime>
+    </File>
+    <File Include="fonts/icomoon.woff">
+      <publishTime>07/07/2017 19:34:51</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Imagenes/image.jpg">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Imagenes/imagen_1.jpg">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Imagenes/imagen_2.jpg">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Imagenes/logo.PNG">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Imagenes/LogoSised.png">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="IniciarSesion.aspx">
+      <publishTime>07/07/2017 21:54:32</publishTime>
+    </File>
+    <File Include="Js/menuIni.js">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="QuienesSomos.aspx">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Registrarte.aspx">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Servicios.aspx">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="TerminosyC.aspx">
+      <publishTime>07/07/2017 19:34:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/07/2017 22:19:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
