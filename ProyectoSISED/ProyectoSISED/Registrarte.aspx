@@ -3,37 +3,49 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
-    <div class="container" style="padding-top: 50px;" id="RegistarID">
-        <div class="row">
-            <div class="col-md-8">
-                <img width="1300" src="Imagenes/limpieza_hab.jpg"/>
-                <!-- Aquí completas con la imagen-->
-            </div>
+    <div id="RegistarID">
+        <div class="container" style="padding-top: 50px;">
+            <div class="row">
+                <div class="col-md-7">
+                    <!--<img width="1300" src="Imagenes/limpieza_hab.jpg"/> -->
+                    <!-- Aquí completas con la imagen-->
+                </div>
                 
-            <div class="col-md-4">
-                <form action="#smRegistrar" data-toggle="modal">
-                    <div class="form-group">
-                        <label for="sRname">Nombre:</label>
-                        <input type="text" class="form-control" id="sRname"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="sRape">Apellido:</label>
-                        <input type="text" class="form-control" id="sRape"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="sRemail">Correo:</label>
-                        <input type="email" class="form-control" id="sRemail"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="sRpwd">Contraseña:</label>
-                        <input type="password" class="form-control" id="sRpwd"/>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox"/> Aceptar <a href="#">terminos y conidiciones</a></label>
-                    </div>
-                    <button type="submit" class="btn btn-default">Registrar</button>
-                </form>
+                <div class="col-md-5 text-center">
+                    <form action="#smRegistrar" data-toggle="modal">
+                        <label>Registrate en SISED</label>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon glyphicon glyphicon-user"></span>
+                                <input type="text" class="form-control" id="sRname" placeholder="Nombre"/>
+                                <!--<span class="input-group-btn" style="width:0px;"></span>-->
+                            
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon glyphicon glyphicon-menu-right"></span>
+                                <input type="text" class="form-control fixedInputRadiusDoble" id="sRape" placeholder="Apellido"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon glyphicon glyphicon-envelope"></span>
+                                <input type="email" class="form-control" id="sRemail" placeholder="Correo electronico"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                                <input type="password" class="form-control" id="sRpwd" placeholder="Contraseña"/>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox"/> Aceptar <a href="#">terminos y conidiciones</a>
+                        </div>
+                        <button type="submit" class="seBotonIniciar">Registrar</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
