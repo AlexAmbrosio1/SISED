@@ -97,11 +97,9 @@
                     <br />Currículum, disponibilidad, referencias.</h3>
             </div>
     </aside>
+  
 
-
-
-
-      <div id="ComoFunciona" class="row">
+    <div id="ComoFunciona" class="row">
             <div class="col-md-4">
                 <div class="text-center">
                     <div  class="titleHome">
@@ -144,4 +142,85 @@
 
         </div>
     </div>
+    <section class="garan">
+        <h6>GARANTÍA DE SATISFACCIÓN</h6>
+        <p>Si la persona no cumple el 100% de tus expectativas o no logramos encontrar lo que necesitas. <br />
+        te devolvemos el dinero de nuestro servicio.
+            <br />Asi de fácil.
+        </p>
+    </section>
+
+     <section class="seg_con">
+         <div>
+             <h5>Seguridad y Confianza</h5>
+             <nav>
+                 
+             <ul class="por">
+                 <li><span>Calificados y Evaluados en su Performance</span></li>
+                 <li><span>Con Referencias Comprobables</span></li>
+                 <li><span>Evaluados en Aspectos Técnicos</span></li>
+                 <li><span>De Confianza</span></li>
+             </ul>
+             </nav>
+         
+             
+         </div>
+         <span><a class="boton" href="" target="_blank">VER MÁS</a></span>
+      
+    </section>
+      <section class="como_funciona">
+        <div class="fun_izq">
+            <img src="https://cdn0.iconfinder.com/data/icons/basic-tools-6/32/alarm-alert-ring-notification-bell-256.png" />
+            <h4>Realiza tu pedido en solo
+                <br />minutos</h4>
+            <p>   Personaliza tu pedido de limpieza o mantenimiento y activalo abonando una reserva online.
+            </p>
+        </div>
+        <div class="fun_der">
+            <img src="https://cdn3.iconfinder.com/data/icons/basicolor-essentials/24/012_touch_click-256.png" />
+            <h4>Conoce a nuestros profesionales 
+                <br />de confianza.</h4>
+            <p>Todos cuentan con experiencia comprobada, referencias y son verificados por nuestro equipo.</p>
+        </div>
+        <div class="fun_cen">
+            <img src="https://cdn2.iconfinder.com/data/icons/badges-2/204/badges06-256.png"  />
+            <h4>Garantias de Satisfacción</h4>
+            <p>Prueba nuestros servicios y si no estás conforme puedes pedir otro perfil o la devolución de tu dinero.
+            </p>
+        </div>
+        
+    </section>
+    <section class="con_trabajadores">
+        <div class="con_izq">
+        <img src="http://www.mviv.es/wp-content/uploads/2016/03/empleados-de-hogar.jpg"  />
+            </div>
+        <div class="con_der">
+          <h5>Conoce a Nuestros Usuarios</h5>
+             <nav>
+                 
+             <ul class="por">
+                 <li><span>Foto de Perfil y de Documento</span></li>
+                 <li><span>Habilidades y Experiencia</span></li>
+                 <li><span>Referencias, calificaciones y opiniones</span></li>
+                 
+             </ul>
+             </nav>
+            <span><a class="boton" href="" target="_blank">VER PERFILES</a></span>
+        </div>
+
+    </section>
+    <section class="publicidad">
+        <nav>
+            <ul>
+                <li><a href="#"><img src="http://news.pg.com/sites/pg.newshq.businesswire.com/files/logo/image/PGPhaseLogo.jpg" class="pg"/></a></li>
+                <li><a href="#"><img src="http://www.maestro.com.pe/maestro/application/themes/maestro/assets/image/v2/logo.png" class="maestro"/></a></li>
+                <li><a href="#"><img src="http://sodimac.scene7.com/is/image/SodimacCL/sodimaclogofacebook" class="sodimac"/></a></li>
+                <li><a href="#"><img src="#" /></a></li>
+                <li><a href="#"><img src="#" /></a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="decir">
+        FALTA
+    </section>
 </asp:Content>

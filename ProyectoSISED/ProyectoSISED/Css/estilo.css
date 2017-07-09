@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Chewy');
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
+
 /*INDEX*/
 body{
 font-family: Arial, Helvetica, sans-serif;
@@ -137,16 +140,18 @@ font-family: Arial, Helvetica, sans-serif;
     margin-right:0;
     width:100%;
     padding: 1px;
-    background: #f0f0f0;
+    background: #11999E;
   
    
 }
 
 #ComoFunciona {
     padding-top: 20px;
+    padding-left:8%;
+    padding-right:8%;
 }
 .titleHome{
-    background: #2D767F;
+    background: #11999E;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top-left-radius: 15px;
@@ -195,6 +200,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(9, 8, 9, 0.07);
     border-top:  2px solid gray;
     border-bottom: 1.5px solid gray;
+    clear:both;
 }
 .frases_sub {
     margin-left: 8%;
@@ -241,11 +247,200 @@ h3{
     min-height:50px;
 	padding:5px;
 }
+/*diseño*/
+
+
+/*garantia*/
+.garan{
+    background-color: #11999E;
+    text-align:center; 
+    padding-top:2.5%;  
+    padding-bottom:2.5%; 
+}
+.garan h6{
+    font-size:30px;
+   
+    font-family: 'Francois One', sans-serif;
+    color:#fff;
+}
+.garan p{
+    font-size:16px;
+    color:#fff;
+}
+
+
+/*imagen*/
+.seg_con{
+    background-image:url("http://www.areacomunicacion.cl/wp-content/uploads/2015/09/fondo-2.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    width:100%;
+    height:450px;
+}
+.seg_con div{
+    padding-top:7%;
+    padding-left:5%;
+}
+.seg_con h5{
+    margin-left:3%;
+   font-size:35px;
+   color:#09A599;
+   text-shadow:1px 1px 1px #fff;
+   font-family: 'Hammersmith One', sans-serif;
+
+
+}
+.por{
+    list-style-image:url("https://cdn1.iconfinder.com/data/icons/color-flat/431800/01-20.png");
+}
+.seg_con span{
+   font-size:18px;
+}
+
+.boton {
+
+    padding: 10px; /*espacio alrededor texto*/
+    background-color:#11999E; /*color botón*/
+    color: #ffffff; /*color texto*/
+    font-weight:bold;
+    font-size:18px;
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+
+}
+.seg_con > span {
+margin-left:8%;
+
+}
+
+/*como funciona*/
+
+.como_funciona {
+    clear:both;
+    margin-top:2%;
+    padding-left:8%;
+    padding-right:8%;
+
+}
+.fun_izq{
+    float:left;
+    width: 32%;
+  
+    text-align:center;
+}
+.fun_der{
+    float:right;
+    width:32%;
+    
+       text-align:center;
+}
+.fun_cen{
+    margin-left:35%;
+    margin-right:35%;
+ 
+    text-align:center;
+}
+.como_funciona img{
+    width:180px;
+
+}
+.como_funciona h4{
+    font-weight:bold;
+    font-size:18px;
+}
+.como_funciona p {
+    margin-left:6%;
+    margin-right:6%;
+}
+/*trabajadores*/
+
+.con_trabajadores{
+    clear:both;
+        background-color:#F9F9F9;
+
+     padding-bottom:8.5%;
+}
+.con_izq {
+    float: left;
+    width:65%;
+    margin-left:4%;
+    height:40%;
+}
+.con_izq img{
+    width:720px;
+    height:40%;
+}
+.con_der{
+    margin-left:65%;
+    margin-right:8%;
+    text-align:center;
+
+}
+.con_der h5{
+   padding-top:25%;
+   font-size:35px;
+   color:#09A599;
+   text-shadow:1px 1px 1px #fff;
+   font-family: 'Hammersmith One', sans-serif;
+
+
+}
+.con_der > nav > ul > li > span{
+    color:#000;
+}
+.con_der nav{
+    padding-bottom:6%;
+   
+}
+
+/*publiccidad*/
+.publicidad{
+    border:1px solid red;
+    margin-top:1%;
+    min-height:80px;
+    padding-left:8%;
+    padding-right:8%;
+}
+.publicidad li {
+    float:left;
+    margin-right:5%;
+}
+.pg{
+    width:60px;
+}
+.maestro{
+    width: 200px;
+}
+.sodimac{
+    width:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Footer*/
 footer {
     border: 1px solid white;
     background: #40514E;
     padding: 2%;
+    clear:both;
 }
 
 footer p, span {
