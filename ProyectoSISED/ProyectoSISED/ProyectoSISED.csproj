@@ -84,6 +84,7 @@
     <Content Include="Imagenes\LogoSised.png" />
     <Content Include="Js\menuIni.js" />
     <Content Include="Postula.aspx" />
+    <Content Include="PreguntasFrecuentes.aspx" />
     <Content Include="QuienesSomos.aspx" />
     <Content Include="Registrarte.aspx" />
     <Content Include="Servicios.aspx" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="Postula.aspx.designer.cs">
       <DependentUpon>Postula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasFrecuentes.aspx.cs">
+      <DependentUpon>PreguntasFrecuentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreguntasFrecuentes.aspx.designer.cs">
+      <DependentUpon>PreguntasFrecuentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Home.aspx.cs">

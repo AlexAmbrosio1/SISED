@@ -509,6 +509,11 @@ footer a:hover {
 #gaQuienesSomos p{
     text-align: justify;
 }
+/*PREGUNTAS FRECUENTES*/
+#gaPreguntasFrecuentes{
+    margin-top:40px;
+}
+
 
 /*COMO FUNCIONA*/
 #ComoFunciona1{
@@ -662,7 +667,7 @@ footer a:hover {
 #header_trabajaConNosotros {
     background-image: url("http://www.arjen.com.pe/wp-content/uploads/2017/02/trabaja_con_nosotros-3.png");
     background-size: cover;
-    min-height: 650px;
+    min-height: 500px;
     border: 1px solid white;
 }
 
@@ -672,7 +677,7 @@ footer a:hover {
         padding: 30px;
         font-size: 100px;
         color: #fff;
-        font-weight: 300;
+        font-weight: 200;
         background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/c1/11/9cc111488fb6e022156971098a800ef6.jpg");
         width: 800px;
         box-shadow: 10px 10px 5px #888888;

@@ -6,27 +6,27 @@
                 <ul>
                     <li class="border"> <a  href="#">¿Buscas Empleo?</a>
                         <ul class="uls">
-                            <li class="submenu"><a href="ServicioAsesoria.html">Se parte de Nosotros</a></li>
-                            <li class="submenu"><a href="ServicioPoda.html">Conoce los Beneficios</a></li>
+                            <li class="submenu"><a href="Registrarte.aspx">Se parte de Nosotros</a></li>
+                            <li class="submenu"><a href="#">Conoce los Beneficios</a></li>
                           
                         </ul>
                     </li>
-                    <li class="border"><a href="ComoFunciona.html">Como funciona</a>
-                        <ul class="uls" >
+                    <li class="border"><a href="ComoFunciona.aspx">Como funciona</a>
+                        <!--<ul class="uls" >
                             <li class="submenu"><a href="">Como encontrar Cuidador</a></li>
                             <li class="submenu"><a href="">Como ser parte de SISED</a></li>
-                        </ul>
+                        </ul>-->
                     </li>
-                    <li class="border"><a href="">¿Porqué Sised? </a>
+                    <li class="border"><a href="#">¿Porqué Sised? </a>
                         <ul class="uls" >
                             <li class="submenu"><a href="CalidadServicio.html">Confia en SISED</a></li>
-                            <li class="submenu"><a href="ComoFunciona.html">Equipo de SISED</a></li>
+                            <li class="submenu"><a href="QuienesSomos.aspx">¿Quines somos?</a></li>
                         </ul>
                     </li>
-                    <li class="border"><a href="">Ayuda</a>
+                    <li class="border"><a href="#">Ayuda</a>
                         <ul class="uls" >
-                            <li class="submenu"><a href="Ayuda.html">Preguntas frecuentes</a></li>
-                            <li class="submenu"><a href="Contactenos.html">Envianos un MSN</a></li>
+                            <li class="submenu"><a href="PreguntasFrecuentes.aspx">PreguntasFrecuentes</a></li>
+                            <!--<li class="submenu"><a href="Contactenos.html">Envianos un MSN</a></li>-->
                         </ul>
                     </li>
                 </ul>
