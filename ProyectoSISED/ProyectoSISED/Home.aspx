@@ -2,6 +2,38 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+  <nav id="centro">
+                <ul>
+                    <li class="border"> <a  href="#">¿Buscas Empleo?</a>
+                        <ul class="uls">
+                            <li class="submenu"><a href="ServicioAsesoria.html">Se parte de Nosotros</a></li>
+                            <li class="submenu"><a href="ServicioPoda.html">Conoce los Beneficios</a></li>
+                          
+                        </ul>
+                    </li>
+                    <li class="border"><a href="ComoFunciona.html">Como funciona</a>
+                        <ul class="uls" >
+                            <li class="submenu"><a href="">Como encontrar Cuidador</a></li>
+                            <li class="submenu"><a href="">Como ser parte de SISED</a></li>
+                        </ul>
+                    </li>
+                    <li class="border"><a href="">¿Porqué Sised? </a>
+                        <ul class="uls" >
+                            <li class="submenu"><a href="CalidadServicio.html">Confia en SISED</a></li>
+                            <li class="submenu"><a href="ComoFunciona.html">Equipo de SISED</a></li>
+                        </ul>
+                    </li>
+                    <li class="border"><a href="">Ayuda</a>
+                        <ul class="uls" >
+                            <li class="submenu"><a href="Ayuda.html">Preguntas frecuentes</a></li>
+                            <li class="submenu"><a href="Contactenos.html">Envianos un MSN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+    </nav>
+
+
     <div class="container" id="princiPB">
         <div id="QuienesSomos">
             <div id="slideCar1" class="carousel slide" data-ride="carousel">
@@ -47,7 +79,29 @@
             </div>
         </div>
 
-        <div id="ComoFunciona" class="row">
+      
+        </div>
+
+    <aside class="frases">
+        <div class="frases_sub">
+            <div class="frases_izquierda">
+                <h3>Encuentra perfiles profesionales para
+                    <br />cubrir todas las necesidades de tu familia.</h3>
+            </div>
+            <div class="frases_derecha">
+                <h3>Nuestro equipo de Recursos Humanos
+                    <br />revisa y valora a todos los candidatos.</h3>
+            </div>
+            <div class="frases_centro">
+                <h3>Toda la información que necesitas:
+                    <br />Currículum, disponibilidad, referencias.</h3>
+            </div>
+    </aside>
+
+
+
+
+      <div id="ComoFunciona" class="row">
             <div class="col-md-4">
                 <div class="text-center">
                     <div  class="titleHome">
@@ -84,7 +138,6 @@
                     </p>
                 </div>
             </div>
-        </div>
 
 
         <div id="Contactenos">

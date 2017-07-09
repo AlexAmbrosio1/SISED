@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <header >
+    <header class="header" >
         <nav class="navbar navbar-default navbar-fixed-top" id="headerMasterP">
           <div class="container-fluid">
 
@@ -31,18 +31,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="Home.aspx">SISED</a>
+                <div class="logo_izq">
+              <img src="imagenes/logooriginal.png"/>
+                    </div>
+                <div class="logo_der">
+                     <a href="Home.aspx">Sised</a>  
+                 </div>
             </div>
 
             <div class="collapse navbar-collapse" id="menuMaster1">
 
-              <ul class="nav navbar-nav">
+              <!--<ul class="nav navbar-nav">
                 <li><a href="QuienesSomos.aspx"><span class="icon-bullhorn"></span>Quienes somos</a></li>
                 <li><a href="ComoFunciona.aspx"><span class="icon-briefcase"></span>Como funciona</a></li>
                 <li><a href="#"><span class="icon-mail4"></span>Contactenos</a></li>
               </ul>
 
-              <!--
+              
                 <form class="navbar-form navbar-left">
 
                 <div class="form-group">
