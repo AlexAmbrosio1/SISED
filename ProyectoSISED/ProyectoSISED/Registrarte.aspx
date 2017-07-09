@@ -9,8 +9,7 @@
                 <div class="col-md-7 col-sm-5 hidden-xs">
                     <p>-Cuando te registres como usuario de SISED, si quieres ayuda en tu hogar entonces tendrás un servicio de calidad y confiabilidad
                     <br /><br />-Pero si quieres ser parte de SISED tu trabajo tendrá su pago correspondiente</p>
-                </div>
-                
+                </div>    
                 <div class="formRegister col-md-5 col-sm-7">
                     <asp:FormView ID="FormView1" runat="server" DataKeyNames="id_persona" DataSourceID="dbSisedS" DefaultMode="Insert" CssClass="col-md-12 col-sm-12 col-xs-12 col-lg-12" OnItemInserting="FormView1_ItemInserting">
                         
@@ -94,13 +93,13 @@
                             <div class="form-group">
                                 <div class="input-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <span class="input-group-addon glyphicon glyphicon-envelope"></span>
-                                    <asp:TextBox Text='<%# Bind("correo") %>' runat="server" ID="correoTextBox" CssClass="form-control" placeholder="Correo"/>
+                                    <asp:TextBox Text='<%# Bind("correo") %>' runat="server" ID="correoTextBox" CssClass="form-control" placeholder="Correo" TextMode="Email" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="input-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <span class="input-group-addon glyphicon glyphicon-lock"></span>
-                                    <asp:TextBox Text='<%# Bind("contraseña") %>' runat="server" ID="contraseñaTextBox" CssClass="form-control" placeholder="Contraseña"/>
+                                    <asp:TextBox Text='<%# Bind("contraseña") %>' runat="server" ID="contraseñaTextBox" CssClass="form-control" placeholder="Contraseña" TextMode="Password" />
                                 </div>
                             </div>
                             <div class="form-group">
@@ -109,8 +108,15 @@
                                     <asp:TextBox Text='<%# Bind("nacionalidad") %>' runat="server" ID="nacionalidadTextBox" CssClass="form-control" placeholder="Nacionalidad"/>
                                 </div>
                             </div>
+                            <div class="alert alert-danger" id="alertR" style="display:none">
+                                <strong>!Alerta</strong> Debes llenar todos los campos obligatoriamente.
+                            </div>
+                             <div class="alert alert-danger" id="alertCh" style="display:none">
+                                <strong>!Alerta</strong> Debes aceptar los terminos y condiciones.
+                            </div>
                             <div class="form-group">
-                                <input type="checkbox"/> Aceptar <a href="#VentanaTerminos" data-toggle="modal">terminos y conidiciones</a>
+                                <asp:CheckBox ID="CheckBox1" runat="server" /> Aceptar <a href="#VentanaTerminos" data-toggle="modal">terminos y conidiciones</a>
+
                                 <div class="modal fade" id="VentanaTerminos">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
