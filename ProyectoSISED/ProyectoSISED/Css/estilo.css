@@ -137,20 +137,20 @@ footer a:hover {
 }
 
 #Servicio div div {
-        padding-top: 20px;
-        height: 500px;
-        margin: 30px;
- }
+    padding-top: 20px;
+    height: 500px;
+    margin: 30px;
+}
 
 #Servicio div div p {
-            padding-top: 20px;
-            color: black;
-            text-align: justify;
-        }
+    padding-top: 20px;
+    color: black;
+    text-align: justify;
+}
 
 #Servicio img {
-        border: 2px solid black;
-    }
+    border: 2px solid black;
+}
 
 
 .CajaRadio{
@@ -159,6 +159,9 @@ footer a:hover {
 /*QUIENES SOMOS*/
 #gaQuienesSomos{
     margin-top: 40px;
+}
+#gaQuienesSomos p{
+    text-align: justify;
 }
 
 /*COMO FUNCIONA*/
@@ -240,26 +243,28 @@ footer a:hover {
     background-size: 1500px;
     color: white;
 }
-
-
 #RegistarID > div > div > div:last-child {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(0,0,0,0.7);
 }
-    #RegistarID > div > div > div > p {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        width:300px;
-        background-color: rgba(0,0,0,0.7);
-        border:1px solid;
-    }
+#RegistarID > div > div > div > p {
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 20px;
+    color: #101010;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
 #RegistarID > div {
     height: 500px;
-}#RegistarID .glyphicon {
+}
+#RegistarID .glyphicon {
     top: 0;
 }
-
 .fixedInputRadiusDoble{
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;

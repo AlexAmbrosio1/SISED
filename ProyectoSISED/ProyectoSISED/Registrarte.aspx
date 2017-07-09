@@ -6,12 +6,12 @@
     <div id="RegistarID">
         <div class="container" style="padding-top: 50px;">
             <div class="row">
-                <div class="col-md-7">
-                    <p>-Cuando se registres como usuario de SISED, si quieres ayuda en tu hogar entonces tendrás un servicio de calidad y confiabilidad
-                    <br />-Pero si quieres ser parte de SISED tu trabajo tendrá su pago correspondiente</p>
+                <div class="col-md-7 col-sm-5 hidden-xs">
+                    <p>-Cuando te registres como usuario de SISED, si quieres ayuda en tu hogar entonces tendrás un servicio de calidad y confiabilidad
+                    <br /><br />-Pero si quieres ser parte de SISED tu trabajo tendrá su pago correspondiente</p>
                 </div>
                 
-                <div class="col-md-5 text-center">
+                <div class="col-md-5 col-sm-7 text-center">
                     <div>
                         <label>Registrate en SISED</label>
                         <div class="form-group">
