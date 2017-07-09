@@ -118,7 +118,7 @@
             <div class="col-md-4">
                 <div class="text-center">
                     <div class="titleHome">
-                        <a href="#"><h2>Trabaja con nosotros</h2></a>
+                        <a href="#">Trabaja con nosotros</a>
                     </div>
                     <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
                     <p>
