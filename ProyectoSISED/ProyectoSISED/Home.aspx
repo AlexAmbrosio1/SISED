@@ -44,24 +44,24 @@
                 </ol>
 
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="http://lorempixel.com/1800/700"class="im-responsive" />
+                       <div class="item active">
+                        <img src="https://www.serviciosdomesticosquality.com/wp-content/uploads/2015/07/servicios-domesticos-madrid-12-1-1600x570.jpg"class="im-responsive" />
                         <div class="carousel-caption">
-                            <h3>Somos bla bla bla...</h3>
+                            <h3>Somos de total confianza para encontrar personal para tu hogar</h3>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="http://lorempixel.com/1800/700" class="img-responsive" />
+                        <img width="1800" src="http://s.libertaddigital.com/fotos/noticias/asistenta-fregar.jpg" class="img-responsive" />
                         <div class="carousel-caption">
-                            <h3>Somos bla bla bla...</h3>
+                            <h3>Somos la web que buscabas</h3>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="http://lorempixel.com/1800/700" class="img-responsive" />
+                        <img width="1800" src="https://www.serviciosdomesticosquality.com/wp-content/uploads/2016/04/servicios-domesticos-madrid-slider-1600x570.jpg" class="img-responsive" />
                         <div class="carousel-caption">
-                            <h3>Somos bla bla bla...</h3>
+                            <h3>Somos tu primera opcion para encontrar trabajo</h3>
                         </div>
                     </div>
 
