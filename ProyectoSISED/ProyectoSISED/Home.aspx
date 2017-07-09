@@ -98,51 +98,7 @@
             </div>
         </div>
     </aside>
-  
 
-    <div id="ComoFunciona" class="row">
-            <div class="col-md-4">
-                <div class="text-center">
-                    <div  class="titleHome">
-                        <a href="Servicios.aspx"><h2>Nuestros Servicios</h2></a>
-                    </div>
-                    <a><img src="http://1.bp.blogspot.com/-T_TlVnJc3uM/U3sL8WkIG8I/AAAAAAAAAcc/L_JRUnoaKEo/s1600/filipina+web+1.PNG"/></a>
-                    <p>
-                       Te brindamos servicios de calidad, con personales capacitados en el
-                        area que desee, encuentrelos aqui.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="text-center">
-                    <div class="titleHome">
-                        <a href="#">Trabaja con nosotros</a>
-                    </div>
-                    <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
-                    <p>
-                         Te ofrecemos la mejor oportunidad, trabaja con nosotros y se parte de nuestra familia. Inscribite aqui.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="text-center">
-                    <div  class="titleHome">
-                        <a href="#"><h2>Actualicemonos</h2></a>
-                    </div>
-                    <a><img src="http://avatar-user.s.aeriastatic.com/72051788/5463f5f9-107a-4971-b296-6899a8a22c1e"/></a>
-                    <p>
-                        "Aquí llenan datos y mas y mas y mas y mas y mas datos"
-                    </p>
-                </div>
-            </div>
-
-
-        <div id="Contactenos">
-
-        </div>
-    </div>
     <section class="garan">
         <h6>GARANTÍA DE SATISFACCIÓN</h6>
         <p>Si la persona no cumple el 100% de tus expectativas o no logramos encontrar lo que necesitas. <br />
@@ -206,7 +162,7 @@
                  
              </ul>
              </nav>
-            <span><a class="boton" href="" target="_blank">VER PERFILES</a></span>
+            <span><a class="boton" href="Servicios.aspx" target="_blank">VER PERFILES</a></span>
         </div>
 
     </section>
