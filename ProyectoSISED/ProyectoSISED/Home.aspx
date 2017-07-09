@@ -96,6 +96,7 @@
                 <h3>Toda la información que necesitas:
                     <br />Currículum, disponibilidad, referencias.</h3>
             </div>
+        </div>
     </aside>
   
 

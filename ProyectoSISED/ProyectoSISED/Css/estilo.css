@@ -587,13 +587,16 @@ footer a:hover {
     margin-left: -5px;
     background-image: url("../Imagenes/FondoR.jpg");
     background-size: 1500px;
-    color: white;
+    color: black;
 }
-#RegistarID > div > div > div:last-child {
+
+.formRegister {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(0,0,0,0.7);
+    color: #fefefe;
 }
+
 #RegistarID > div > div > div > p {
     padding: 15px;
     padding-top: 40px;
@@ -605,15 +608,54 @@ footer a:hover {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
 }
+
 #RegistarID > div {
-    height: 500px;
+    height: 900px;
 }
+
 #RegistarID .glyphicon {
     top: 0;
 }
-.fixedInputRadiusDoble{
+
+.fixedInputRadiusDoble {
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.displayedObje {
+    height: 1px;
+    padding: 0;
+    display: none;
+}
+
+.colorTextBlack {
+    color: black;
+}
+
+.paddinSelect {
+    padding-top: 5px;
+    padding-left: 7px;
+    margin-right: 19px;
+}
+
+.sinPadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.displayInlineS {
+    display: inline-block;
+    height: 37px;
+}
+
+    .displayInlineS td {
+        padding-top: 11px;
+        padding-right: 7px;
+    }
+
+#RegistarID .form-inline {
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 /*TrabajaConNosotros*/
 

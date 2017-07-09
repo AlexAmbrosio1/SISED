@@ -9,6 +9,9 @@ namespace ProyectoSISED
 {
     public partial class Registrarte : System.Web.UI.Page
     {
-        
+        protected void FormView1_ItemInserting(object sender, FormViewInsertEventArgs e)
+        {
+           
+        }
     }
 }
