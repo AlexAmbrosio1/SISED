@@ -2,6 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   
+        <div class="container" id="gaComoFunciona">
+    <div class="col-md-8">
     <div id="ComoFunciona1">
         <link href="Css/estilo.css" rel="stylesheet" />
         <h1>Como Funciona</h1>
@@ -12,5 +15,5 @@
         <p> Por otra parte si quieres ser parte de SISED tambien seguiras los mismos pasos y 
             especificando si quieres ser parte de SISED o quieres ayuda para tu hogar</p>
         
-    </div>
+    </div></div></div>
 </asp:Content>

@@ -8,7 +8,7 @@
                 <div class="col-md-5"><img src="http://www.serhogarsystem.com/wp-content/uploads/2015/07/externas.jpg"/> </div>
                 <div class="col-md-7">
                     <link href="Css/estilo.css" rel="stylesheet" />
-                    <h1>Quines Somos</h1>
+                    <h1>Quienes Somos</h1>
                     <p>SISED es una empresa que se especializa en ofrecer diversos servicios a domicilio. Nuestra empresa empieza
                         con la idea mejorar la calidad de servicio con la mayor confiabilidad de nuestros trabajadores para 
                         realizar las labores del hogar, así equilibrar, flexibilizar y profesionalizar los servicios de limpieza 
