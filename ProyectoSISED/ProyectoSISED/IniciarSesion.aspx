@@ -9,19 +9,25 @@
                 <div class="form-group">
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon glyphicon glyphicon-user"></span>
-                        <input type="email" class="form-control" id="Iniemail" placeholder="Correo electronico"/>
+                        <asp:TextBox ID="Iniemail" CssClass="form-control" runat="server" placeholder="Correo electronico" TextMode="Email"></asp:TextBox>
                     </div>
                 </div>
                 <div class="form-group" >
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon glyphicon glyphicon-lock"></span>
-                        <input type="password" class="form-control" id="Inipwd" placeholder="Contraseña"/>
+                        <asp:TextBox ID="Inipwd" CssClass="form-control" runat="server" placeholder="Contraseña" TextMode="Password"></asp:TextBox>
                     </div>
                 </div>
                 <!-- <div class="checkbox"> 
                 <label><input type="checkbox"/> Remember me</label>
                 </div> -->
-                <asp:Button ID="sebtnIniciarSesion" runat="server" Text="Iniciar Sesión" CssClass="seBotonIniciar"/>
+                <div class="alert alert-danger" id="alertCon" style="display:none">
+                    Correo o contraseña incorrectas.
+                </div>
+                <div class="alert alert-danger" id="alertSinC" style="display:none">
+                    <strong>!Alerta</strong> No debes dejar campos vacios.
+                </div>
+                <asp:Button ID="sebtnIniciarSesion" runat="server" Text="Iniciar Sesión" CssClass="seBotonIniciar" OnClick="sebtnIniciarSesion_Click"/>
                 <!--<button type="submit" class="seBotonIniciar">Iniciar Sesión</button>-->
                 <br />
                 <br />
