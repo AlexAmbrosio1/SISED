@@ -8,8 +8,13 @@ using System.Web.UI.WebControls;
 
 namespace ProyectoSISED
 {
-    public partial class Registrarte : System.Web.UI.Page
+    public partial class RegistroCliente : System.Web.UI.Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
         protected void FormView1_ItemInserting(object sender, FormViewInsertEventArgs e)
         {
             foreach (DictionaryEntry entry in e.Values)
@@ -25,9 +30,9 @@ namespace ProyectoSISED
                     }
                     else
                     {
-                        TextBox tex = (TextBox)FormView1.FindControl("CorreoTextBox");
-                        DataSet1TableAdapters.UsuarioTableAdapter obj = new DataSet1TableAdapters.UsuarioTableAdapter();
-                        Object correo = obj.ConsultarCorreo(tex.Text);
+                        TextBox tex = (TextBox)FormView1.FindControl("correoTextBox");
+                        DataSet1TableAdapters.ClienteTableAdapter obj = new DataSet1TableAdapters.ClienteTableAdapter();
+                        Object correo = obj.ConsultarCorreoCliente(tex.Text);
                         if (correo != null)
                         {
                             String ScriptAct = "document.getElementById('alertCor').style.display='block';";
@@ -42,7 +47,7 @@ namespace ProyectoSISED
                     ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
                     e.Cancel = true;
                 }
-                
+
             }
         }
 
@@ -50,8 +55,8 @@ namespace ProyectoSISED
         {
             TextBox a = (TextBox)FormView1.FindControl("correoTextBox");
             TextBox b = (TextBox)FormView1.FindControl("contraseñaTextBox");
-            DataSet1TableAdapters.UsuarioTableAdapter obj = new DataSet1TableAdapters.UsuarioTableAdapter();
-            Object nombre = obj.IniciarSesion(a.Text, b.Text);
+            DataSet1TableAdapters.ClienteTableAdapter obj = new DataSet1TableAdapters.ClienteTableAdapter();
+            Object nombre = obj.IniciarSesionCliente(a.Text, b.Text);
             if (nombre != null)
             {
                 Session["nombre"] = nombre;

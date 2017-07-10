@@ -60,7 +60,13 @@
 
                   <ul id="ulNoUser" class="nav navbar-nav navbar-right" style="display:none;">
                     <li><a href="IniciarSesion.aspx"><span class="icon-user"></span>Inicias sesión</a></li>
-                    <li><a href="Registrarte.aspx"><span class="icon-user-plus"></span>Registrarse</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="icon-user-plus"></span>Registrarse<span class="caret"></span></a>
+                        <ul class="dropdown-menu liNav">
+                          <li><a href="Registrarte.aspx">Registro Usuario</a></li>
+                          <li><a href="RegistroCliente.aspx">Registro Cliente</a></li>
+                        </ul>
+                    </li>
                   </ul>
                   <ul id="ulUser" class="nav navbar-nav navbar-right" style="display:none;">
                     <li><asp:HyperLink ID="seUsuario" runat="server">user</asp:HyperLink></li>

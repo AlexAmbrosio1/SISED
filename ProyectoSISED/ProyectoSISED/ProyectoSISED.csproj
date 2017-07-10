@@ -99,6 +99,7 @@
     <Content Include="publicidad.xml" />
     <Content Include="QuienesSomos.aspx" />
     <Content Include="Registrarte.aspx" />
+    <Content Include="RegistroCliente.aspx" />
     <Content Include="Servicios.aspx" />
     <Content Include="TrabajaConNosotros.aspx" />
     <Content Include="Web.config" />
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="Registrarte.aspx.designer.cs">
       <DependentUpon>Registrarte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroCliente.aspx.cs">
+      <DependentUpon>RegistroCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistroCliente.aspx.designer.cs">
+      <DependentUpon>RegistroCliente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Servicios.aspx.cs">
       <DependentUpon>Servicios.aspx</DependentUpon>

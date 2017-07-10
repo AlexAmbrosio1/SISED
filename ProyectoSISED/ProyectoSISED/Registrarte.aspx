@@ -11,7 +11,7 @@
                     <br /><br />-Pero si quieres ser parte de SISED tu trabajo tendrá su pago correspondiente</strong></p>
                 </div>    
                 <div class="formRegister col-md-5 col-sm-7 col-xs-12">
-                    <asp:FormView ID="FormView1" runat="server" DataKeyNames="id_persona" DataSourceID="dbSisedS" DefaultMode="Insert" CssClass="col-md-12 col-sm-12 col-xs-12 col-lg-12" OnItemInserting="FormView1_ItemInserting">
+                    <asp:FormView ID="FormView1" runat="server" DataKeyNames="id_persona" DataSourceID="dbSisedS" DefaultMode="Insert" CssClass="col-md-12 col-sm-12 col-xs-12 col-lg-12" OnItemInserting="FormView1_ItemInserting" OnItemInserted="FormView1_ItemInserted">
                         
                         <InsertItemTemplate>
                             <label>Registrate en SISED</label>
@@ -115,7 +115,7 @@
                                 <strong>Alerta!</strong> Debes aceptar los terminos y condiciones.
                             </div>
                             <div class="alert alert-danger" id="alertCor" style="display:none">
-                                <strong>Alerta!</strong> El correo Ingresado ya esta en uso.
+                                <strong>Alerta!</strong> El correo ingresado ya esta en uso.
                             </div>
                             <div class="form-group">
                                 <asp:CheckBox ID="CheckBox1" runat="server" /> Aceptar <a href="#VentanaTerminos" data-toggle="modal">terminos y conidiciones</a>
@@ -152,7 +152,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <asp:Button runat="server" Text="Insertar" CommandName="Insert" ID="InsertButton" CausesValidation="True" CssClass="seBotonIniciar"/>&nbsp;
+                            <asp:Button runat="server" Text="Registrar" CommandName="Insert" ID="InsertButton" CausesValidation="True" CssClass="seBotonIniciar"/>&nbsp;
                         </InsertItemTemplate>
                         <ItemTemplate>
                             id_persona:
