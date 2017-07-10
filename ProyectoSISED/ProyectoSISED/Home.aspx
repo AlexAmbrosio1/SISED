@@ -7,7 +7,7 @@
                     <li class="border"> <a  href="#">¿Buscas Empleo?</a>
                         <ul class="uls">
                             <li class="submenu"><a href="Registrarte.aspx">Se parte de Nosotros</a></li>
-                            <li class="submenu"><a href="#">Conoce los Beneficios</a></li>
+                            <li class="submenu"><a href="ConoceLosBeneficios.aspx">Conoce los Beneficios</a></li>
                           
                         </ul>
                     </li>
