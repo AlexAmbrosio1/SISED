@@ -42,7 +42,7 @@
         
               <span><a class="boton" href="" >ARREGLOS GENERALES</a></span>   <span><a class="boton" href="" >EMPLEADOS DOMÉSTICOS</a></span>
             
-            <a href="#">ELECTRICISTAS,PLOMEROS Y MAS...</a>
+            <a href="categorias.aspx" target="_self">ELECTRICISTAS,PLOMEROS Y MAS...</a>
             
         </div>  
      
@@ -239,7 +239,7 @@
             </div>
             
         </div>
-       <span><a class="boton" href="" target="_blank">TODOS LOS SERVICIOS</a></span>
+       <span><a class="boton" href="categorias.aspx" target="_self">TODOS LOS SERVICIOS</a></span>
 
     </section>
 

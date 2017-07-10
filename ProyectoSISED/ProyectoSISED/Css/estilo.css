@@ -594,6 +594,87 @@ margin-left:8%;
 
 
 
+/*categoria*/
+.categoria1{
+    margin-top:3%;
+    padding-left:10%;
+    padding-right:10%;
+    text-align:center;
+    background-color:#F6F6F6;
+}
+.categoria1 h1{
+    font-size:40px;
+    font-family: 'Source Sans Pro', sans-serif;
+   padding-top:4%;
+    
+    color:#50666B;
+
+}
+.cate {
+    width:300px;
+    height:550px;
+   background-color:#fff;
+    text-align:left;
+  
+    margin-top:10%;
+}
+.cate div{
+    
+    border-bottom:0.5px solid gray;
+}
+.cate h2{
+    font-size:25px;
+    color:#11999E;
+    margin-left:2.5%;
+}
+
+.cate div p{
+    font-size:13px;
+    margin-left:2.5%;
+}
+.cate p{
+    margin-top:6%;
+    display:block;
+    font-size:14px;
+    margin-left:2.5%;
+    line-height:29px;
+}
+.cate   img{
+    width:100%;
+    height:210px;
+}
+.cate ul li a{
+    text-decoration:underline;
+    color:#11999E;
+}
+
+.cate ul{
+    list-style-image:url("https://cdn4.iconfinder.com/data/icons/basic-ui-colour/512/ui-13-20.png");
+}
+
+.cat_izq{
+    float:left;
+    width:30%;
+   
+    
+}
+
+.cat_der{
+    float:right;
+    width:30%;
+ 
+  
+}
+.cat_cen{
+    margin-left:35%;
+    margin-right:33%;
+}
+
+
+
+
+
+
 
 
 
