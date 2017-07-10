@@ -131,14 +131,14 @@
 			                                    por ende, cuenta con las licencias necesarias para su utilización y están protegidos por la legislación peruana e internacional.</p>
 			
 			                                    <h3 class="terminosP">OBJETO Y ACTIVIDAD</h3>
-			                                    <p class="terminosP">SiSed es una pagina Web  dirigida a dos tipos de público, uno aquellos que buscan personal confiable para los quehaceres de su hogar, dos, también te permitimos ofrecer tus servicios para las labores del hogar, en esta plataforma te recomendares de acuerdo con tu trabajo. </p>
+			                                    <p class="terminosP">SiSed es una pagina Web  dirigida a dos tipos de público, para aquellas personas que buscan un trabajador confiable y para quienes quieren trabajar con nosotros, en nuestra plataforma encontrara todos los detalles que necesita saber.</p>
 			
 			                                    <h3 class="terminosP">CUENTA DE USUARIO</h3>
 			                                    <p class="terminosP">Para obtener una mejor experiencia al utilizar ciertas secciones y características de los servicios de SiSed.com, podrá optar 
-			                                    por registrarse y crear una cuenta en SiSed (Cuenta de Usuario).</p>
+			                                    por registrarse y crear una cuenta en SiSed (Registrate).</p>
 			
-			                                    <h3>PERSONAS ADMITIDOS</h3>
-			                                    <p class="terminosP">Solamente estarán admitidos para realizar pedidos mediante la presente tienda on line aquellas personas que hayan alcanzado la mayoría de edad 
+			                                    <h3 class="terminosP">PERSONAS ADMITIDAS</h3>
+			                                    <p class="terminosP">Solamente estarán admitidas para realizar consultas o comentarios mediante la presente pagina online aquellas personas que hayan alcanzado la mayoría de edad 
 			                                    legal en su país de residencia fiscal, posean la capacidad jurídica para celebrar contratos.
 			                                    </p>
                                             </div>
