@@ -10,7 +10,7 @@
                     <p><strong> -Cuando te registres como usuario de SISED, si quieres ayuda en tu hogar entonces tendrás un servicio de calidad y confiabilidad
                     <br /><br />-Pero si quieres ser parte de SISED tu trabajo tendrá su pago correspondiente</strong></p>
                 </div>    
-                <div class="formRegister col-md-5 col-sm-7">
+                <div class="formRegister col-md-5 col-sm-7 col-xs-12">
                     <asp:FormView ID="FormView1" runat="server" DataKeyNames="id_persona" DataSourceID="dbSisedS" DefaultMode="Insert" CssClass="col-md-12 col-sm-12 col-xs-12 col-lg-12" OnItemInserting="FormView1_ItemInserting">
                         
                         <InsertItemTemplate>

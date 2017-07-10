@@ -1144,7 +1144,8 @@ namespace ProyectoSISED.DataSet1TableAdapters {
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT correo,contraseña FROM Usuario where correo=@mail and contraseña=@pass";
+            this._commandCollection[1].CommandText = "SELECT        nombre, apellido\r\nFROM            Usuario\r\nWHERE        (correo = @" +
+                "mail) AND (contraseña = @pass)";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@mail", global::System.Data.SqlDbType.VarChar, 100, global::System.Data.ParameterDirection.Input, 0, 0, "correo", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@pass", global::System.Data.SqlDbType.VarChar, 15, global::System.Data.ParameterDirection.Input, 0, 0, "contraseña", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -1405,7 +1406,7 @@ namespace ProyectoSISED.DataSet1TableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual string IniciarSesion(string mail, string pass) {
+        public virtual object IniciarSesion(string mail, string pass) {
             global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[1];
             if ((mail == null)) {
                 throw new global::System.ArgumentNullException("mail");
@@ -1438,7 +1439,7 @@ namespace ProyectoSISED.DataSet1TableAdapters {
                 return null;
             }
             else {
-                return ((string)(returnValue));
+                return ((object)(returnValue));
             }
         }
     }
