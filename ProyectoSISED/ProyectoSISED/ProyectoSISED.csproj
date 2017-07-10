@@ -58,7 +58,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="categorias.aspx" />
     <Content Include="ComoFunciona.aspx" />
+    <Content Include="ConoceLosBeneficios.aspx" />
     <Content Include="Default_m.Master" />
     <Content Include="fonts\icomoon.eot" />
     <Content Include="fonts\icomoon.ttf" />
@@ -106,12 +108,26 @@
     <Content Include="Home.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="categorias.aspx.cs">
+      <DependentUpon>categorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categorias.aspx.designer.cs">
+      <DependentUpon>categorias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ComoFunciona.aspx.cs">
       <DependentUpon>ComoFunciona.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ComoFunciona.aspx.designer.cs">
       <DependentUpon>ComoFunciona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConoceLosBeneficios.aspx.cs">
+      <DependentUpon>ConoceLosBeneficios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConoceLosBeneficios.aspx.designer.cs">
+      <DependentUpon>ConoceLosBeneficios.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>

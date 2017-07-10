@@ -90,7 +90,6 @@
                 <div class="col-md-12">
                     <p > Nos encontramos en la Av. Flora Tristan 620, La Molina 15024 </p>
                     <p>Atendemos los dias  Lunes y Miercoles de 8am a 1pm</p>                 
-                    <a href="TerminosyC.aspx"><p>Terminos y condiciones</p></a>
                 </div>
                 <iframe class="col-md-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.637207138474!2d-76.94529048585599!3d-12.068464045588792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6e845843827%3A0x9ab4d8ad8ca5bad9!2sAv.+Flora+Tristan+620%2C+La+Molina+15024!5e0!3m2!1ses-419!2spe!4v1499020661396" width="600" height="200" frameborder="0"  style="border:0" allowfullscreen></iframe>
                  
@@ -99,9 +98,9 @@
                 </div>
                 <div class="col-md-6">
                     <ul class="list-inline text-right">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Otros</a></li>
+                        <li ><a style="color: #FFF;" href="http://www.facebook.com/profile.php?=743264506 ">Facebook</a></li>
+                        <li><a style="color: #FFF;" href="https://twitter.com/login?lang=es">Twitter</a></li>
+                        <li><a style="color: #FFF;" href="http://www1.univision.com/temas/asi-se-vive-mejor-hogar?tagOffset=135&layoutType=flex">Otros</a></li>
                     </ul>
                 </div>
             </div>
