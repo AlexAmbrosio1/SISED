@@ -40,7 +40,7 @@
             <h1>Encuentra la Ayuda de Confianza.</h1>
             <h2>Empleadas domésticas y servicios para el hogar con solo un click</h2>
         
-              <span><a class="boton" href="" >ARREGLOS GENERALES</a></span>   <span><a class="boton" href="" >EMPLEADOS DOMÉSTICOS</a></span>
+              <span><a class="boton" href="categorias.aspx" >ARREGLOS GENERALES</a></span>   <span><a class="boton" href="categorias.aspx" >EMPLEADOS DOMÉSTICOS</a></span>
             
             <a href="categorias.aspx" target="_self">ELECTRICISTAS,PLOMEROS Y MAS...</a>
             
@@ -88,7 +88,7 @@
          
              
          </div>
-         <span><a class="boton" href="" target="_blank">VER MÁS</a></span>
+         <span><a class="boton" href="ConoceLosBeneficios.aspx" target="_blank">VER MÁS</a></span>
       
     </section>
       <section class="como_funciona">
