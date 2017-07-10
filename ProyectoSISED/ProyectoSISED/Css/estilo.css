@@ -700,7 +700,7 @@ footer {
     clear:both;
 }
 
-footer p, span {
+footer p, span, li{
     color: #FFF;
 }
 
@@ -708,22 +708,9 @@ footer p {
     text-align: center;
 }
 
-footer a:hover {
-    background: #11999E;
-}
 
-#Terminos {
-    padding: 3% 10%;
-}
 
-    #Terminos h2 {
-        text-align: center;
-    }
 
-.terminosP {
-    color: black;
-    text-align: justify;
-}
 
 /*Servicios*/
 #botonesTrabajo{
