@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="categoria1">
+     <div class="categoria1">
         <h1>Servicios de Limpieza de Calidad con la Seguridad Garantizada</h1>
         <p>Dedicados a conectar personas con profesionales capaces de brindar todo tipo de servicios domésticos.</p>
         <div class="cat_izq">
@@ -182,5 +182,4 @@ Cuidado especial por días
         </div>
 
     </div>
-
 </asp:Content>
