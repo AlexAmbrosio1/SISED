@@ -109,10 +109,13 @@
                                 </div>
                             </div>
                             <div class="alert alert-danger" id="alertR" style="display:none">
-                                <strong>!Alerta</strong> Debes llenar todos los campos obligatoriamente.
+                                <strong>Alerta!</strong> Debes llenar todos los campos obligatoriamente.
                             </div>
                              <div class="alert alert-danger" id="alertCh" style="display:none">
-                                <strong>!Alerta</strong> Debes aceptar los terminos y condiciones.
+                                <strong>Alerta!</strong> Debes aceptar los terminos y condiciones.
+                            </div>
+                            <div class="alert alert-danger" id="alertCor" style="display:none">
+                                <strong>Alerta!</strong> El correo Ingresado ya esta en uso.
                             </div>
                             <div class="form-group">
                                 <asp:CheckBox ID="CheckBox1" runat="server" /> Aceptar <a href="#VentanaTerminos" data-toggle="modal">terminos y conidiciones</a>

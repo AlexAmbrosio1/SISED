@@ -19,11 +19,21 @@ namespace ProyectoSISED
                 {
                     if (entry.Value.Equals(""))
                     {
-                        // Use the Cancel property to cancel the 
-                        // insert operation.
                         String ScriptAct = "document.getElementById('alertR').style.display='block';";
                         ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
                         e.Cancel = true;
+                    }
+                    else
+                    {
+                        TextBox tex = (TextBox)FormView1.FindControl("CorreoTextBox");
+                        DataSet1TableAdapters.UsuarioTableAdapter obj = new DataSet1TableAdapters.UsuarioTableAdapter();
+                        Object correo = obj.ConsultarCorreo(tex.Text);
+                        if (correo != null)
+                        {
+                            String ScriptAct = "document.getElementById('alertCor').style.display='block';";
+                            ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
+                            e.Cancel = true;
+                        }
                     }
                 }
                 else

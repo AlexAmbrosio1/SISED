@@ -18,7 +18,7 @@ namespace ProyectoSISED
         {
             if (Session["nombre"] != null)
             {
-                seUsuario.Text = Session["nombre"].ToString();
+                seUsuario.Text = "<span class='icon - user'></span>"+Session["nombre"].ToString();
                 seUsuario.NavigateUrl ="IniciarSesion.aspx";
                 String ScriptAct = "document.getElementById('ulUser').style.display='block';";
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
