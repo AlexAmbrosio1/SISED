@@ -13,5 +13,27 @@ namespace ProyectoSISED
         {
 
         }
+
+        protected void ContentPlaceHolder1_Load(object sender, EventArgs e)
+        {
+            if (Session["nombre"] != null)
+            {
+                seUsuario.Text = Session["nombre"].ToString();
+                seUsuario.NavigateUrl ="IniciarSesion.aspx";
+                String ScriptAct = "document.getElementById('ulUser').style.display='block';";
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
+            }
+            else
+            {
+                String ScriptAct = "document.getElementById('ulNoUser').style.display='block';";
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Session.RemoveAll();
+            Response.Redirect("Home.aspx");
+        }
     }
 }

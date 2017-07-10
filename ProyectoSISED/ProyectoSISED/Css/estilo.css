@@ -873,9 +873,9 @@ footer a:hover {
     padding-bottom: 60px;
 }
 
-    #article_izquierda > div {
-        margin-top: 10px;
-    }
+#article_izquierda > div {
+    margin-top: 10px;
+}
 
 .label {
     display: inline-block;
@@ -891,9 +891,9 @@ footer a:hover {
     width: 65% float : right;
 }
 
-    #article_derecha > div {
-        margin-top: 10px;
-    }
+#article_derecha > div {
+    margin-top: 10px;
+}
 
 .label_b {
     display: inline-block;
@@ -916,4 +916,11 @@ footer a:hover {
 #Documentacion {
     padding-left: 15%;
 }
-		
+
+.botonSinFonNiBorde{
+    border: none;
+    background-color: none;
+    background: none;
+    color: white;
+    margin-top: 14px;
+}
