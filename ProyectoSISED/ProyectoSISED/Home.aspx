@@ -34,53 +34,19 @@
     </nav>
 
 
-    <div class="container" id="princiPB">
-        <div id="QuienesSomos">
-            <div id="slideCar1" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#slideCar1" data-slide-to="0" class="active"></li>
-                    <li data-target="#slideCar1" data-slide-to="1"></li>
-                    <li data-target="#slideCar1" data-slide-to="2"></li>
-                </ol>
+    <section class="banner">
 
-                <div class="carousel-inner" role="listbox">
-                       <div class="item active">
-                        <img src="https://www.serviciosdomesticosquality.com/wp-content/uploads/2015/07/servicios-domesticos-madrid-12-1-1600x570.jpg"class="im-responsive" />
-                        <div class="carousel-caption">
-                            <h3>Somos de total confianza para encontrar personal para tu hogar</h3>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img width="1800" src="http://s.libertaddigital.com/fotos/noticias/asistenta-fregar.jpg" class="img-responsive" />
-                        <div class="carousel-caption">
-                            <h3>Somos la web que buscabas</h3>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img width="1800" src="https://www.serviciosdomesticosquality.com/wp-content/uploads/2016/04/servicios-domesticos-madrid-slider-1600x570.jpg" class="img-responsive" />
-                        <div class="carousel-caption">
-                            <h3>Somos tu primera opcion para encontrar trabajo</h3>
-                        </div>
-                    </div>
-
-                </div>
-
-                <a href="#slideCar1" class="left carousel-control" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-
-                <a href="#slideCar1" class="right carousel-control" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Siguiente</span>
-                </a>
-            </div>
-        </div>
-
-      
-        </div>
+        <div class="textura">
+            <h1>Encuentra la Ayuda de Confianza.</h1>
+            <h2>Empleadas domésticas y servicios para el hogar con solo un click</h2>
+        
+              <span><a class="boton" href="" >ARREGLOS GENERALES</a></span>   <span><a class="boton" href="" >EMPLEADOS DOMÉSTICOS</a></span>
+            
+            <a href="#">ELECTRICISTAS,PLOMEROS Y MAS...</a>
+            
+        </div>  
+     
+    </section>
 
     <aside class="frases">
         <div class="frases_sub">

@@ -40,6 +40,59 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 
+.banner{
+
+    border-top:  1px solid #11999E;
+    text-align: center;
+    background-image: url("http://www.mazal.co/uploads/galerias/3027_cocina_mazal_full_hd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;/* La imagen de fondo est� fija en el viewport, de modo que no se mueva cuando
+     la altura del contenido supere la altura de la imagen. */
+    height: 500px;
+
+}
+/* estilos banner*/
+.textura{
+    border: 1px solid white;
+    margin-top:  130px;
+    background-color: rgba(15, 17, 15, 0.12);
+    padding-left: 8%;
+    padding-right: 8%;
+    height:220px;
+    margin-bottom:10%;
+}
+.textura span {
+    margin-right:5%;
+}
+.textura span a{
+    text-decoration: none;
+
+}
+.textura> a{
+    display:block;
+    margin-top:1.5%;
+    
+    color:#fff;
+    font-weight:   bold;
+}
+.textura span a:hover {
+    color: #11999E;
+    background-color:#F8FCFB;
+        
+}
+.textura > h1{
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 1.5px solid black;
+    text-shadow: 5px 5px 5px black;
+}
+.textura > h2{
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom:2%;
+}
 
 
 
