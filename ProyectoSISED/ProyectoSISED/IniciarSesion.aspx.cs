@@ -19,18 +19,34 @@ namespace ProyectoSISED
             if(Iniemail.Text!="" && Inipwd.Text!=""){
                 try
                 {
-                    DataSet1TableAdapters.UsuarioTableAdapter obj = new DataSet1TableAdapters.UsuarioTableAdapter();
-                    Object nombre = obj.IniciarSesion(Iniemail.Text, Inipwd.Text);
-                    if (nombre != null)
+                    DataSet1TableAdapters.UsuarioTableAdapter obj1 = new DataSet1TableAdapters.UsuarioTableAdapter();
+                    Object correo = obj1.ConsultarCorreo(Iniemail.Text);
+                    if (correo != null)
                     {
-                        Session["nombre"] = nombre;
-                        Response.Redirect("Home.aspx");
+                        DataSet1TableAdapters.UsuarioTableAdapter obj = new DataSet1TableAdapters.UsuarioTableAdapter();
+                        Object nombre = obj.IniciarSesion(Iniemail.Text, Inipwd.Text);
+                        if (nombre != null)
+                        {
+                            Session["nombre"] = nombre;
+                            Response.Redirect("Home.aspx");
+                        }
                     }
                     else
                     {
-                        String ScriptAct = "document.getElementById('alertCon').style.display='block';";
-                        ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
+                        DataSet1TableAdapters.ClienteTableAdapter obj = new DataSet1TableAdapters.ClienteTableAdapter();
+                        Object nombre = obj.IniciarSesionCliente(Iniemail.Text, Inipwd.Text);
+                        if (nombre != null)
+                        {
+                            Session["nombre"] = nombre;
+                            Response.Redirect("Home.aspx");
+                        }
+                        else
+                        {
+                            String ScriptAct = "document.getElementById('alertCon').style.display='block';";
+                            ScriptManager.RegisterStartupScript(this, this.GetType(), "show", ScriptAct, true);
+                        }
                     }
+
 
                 }
                 catch
