@@ -692,13 +692,13 @@ footer a:hover {
 
 
 /*COMO FUNCIONA*/
-#ComoFunciona1{
-    padding-top:20px;
-    width:80%;
+#gaComoFunciona {
+    padding-top: 20px;
+    width: 80%;
 }
-#ComoFunciona1 p {
-   color: black;
-   text-align: justify;
+#gaComoFunciona1 p {
+    color: black;
+    text-align: justify;
 }
 
 /*CSS PARA INICIO DE SESION*/

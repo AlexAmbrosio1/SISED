@@ -30,6 +30,7 @@
                     <p>
                         Pierina es una de nuestras trabajadoras amante de la cocina, destaca por sus habilidades culinarias e implacable trabajo.
                     </p>
+                    <p>Edad: 29 años <br />Seldo:30 por dia<br />Telefono:922654321</p>
                 </div>
             </div>
 
@@ -40,7 +41,8 @@
                     <p>
                         Simon es uno de nuestros trabajadores que desempeña la labor de vigilante, entregado por completo a su trabajo y brindarle la seguridad que usted necesita.
                     </p>
-                </div>
+                    <p>Edad: 30 años <br />Seldo:50 por dia<br />Telefono:980004321</p>
+                   </div>
             </div>
 
             <div class="col-md-4">
@@ -50,6 +52,7 @@
                     <p>
                         Marilin es una de nuestras trabajadoras que se desempeña en la labor de ventas, con una fluidez innata de hablar y convencerte de lo dicho.
                     </p>
+                     <p>Edad: 32 años <br />Seldo:40 por dia<br />Telefono:987016521</p>
                 </div>
             </div>
         </div>

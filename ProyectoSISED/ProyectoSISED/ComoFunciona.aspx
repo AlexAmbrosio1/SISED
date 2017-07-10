@@ -3,17 +3,26 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
-        <div class="container" id="gaComoFunciona">
-    <div class="col-md-8">
-    <div id="ComoFunciona1">
-        <link href="Css/estilo.css" rel="stylesheet" />
+ <div class="container" id="gaComoFunciona">
+    <div class="col-md-12">
         <h1>Como Funciona</h1>
-        <p>SISED es una web donde encontraras a personal capacitado para realizar las lavores del hogar, si quieres 
-            contratar los servicios de nuestro personal debe seguir lo siguientes pasos:</p>
-        <p>-Debe registarse <a href="Registrarte.aspx">aqui</a>.</p>
-        <p>  -Puego debe ingresar con su usuario y contaseña, para solicitar el servicio deseado.</p>
-        <p> Por otra parte si quieres ser parte de SISED tambien seguiras los mismos pasos y 
-            especificando si quieres ser parte de SISED o quieres ayuda para tu hogar</p>
-        
-    </div></div></div>
+                <p>SISED es una web donde encontraras a personal capacitado para realizar las labores del hogar, si quieres 
+                    contratar los servicios de nuestro personal debe seguir lo siguientes pasos:</p>
+            <div class="col-md-4">
+                <img src="Imagenes/registrar.png"/>
+                <h3>Debe registrarse <a href="Registrarte.aspx">aquí</a></h3>
+                <p>Créate una cuenta gratuitamente</p>
+            </div>
+            <div class="col-md-4">
+                <img src="Imagenes/check.png"/>
+                <h3>Revisar los perfiles</h3>
+                <p>Analiza la mejor opción para el trabajo a realizar</p>
+            </div>        
+            <div class="col-md-4">
+                <img src="Imagenes/contacto.png" />
+                <h3>Luego solicitar el servicio deseado. </h3>
+                <p>Escoger el personal que mejor te parezca</p> 
+            </div>
+      </div>
+ </div>
 </asp:Content>
