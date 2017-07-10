@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Bitter');
+﻿@@import url('https://fonts.googleapis.com/css?family=Bitter');
 @import url('https://fonts.googleapis.com/css?family=Playball');
 
 
@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy');
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One');
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 
 /*INDEX*/
@@ -306,7 +307,7 @@ h3{
     font-size:18px;
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-
+    
 }
 .seg_con > span {
 margin-left:8%;
@@ -389,32 +390,154 @@ margin-left:8%;
     color:#000;
 }
 .con_der nav{
-    padding-bottom:6%;
+    padding-bottom:8%;
    
 }
 
 /*publiccidad*/
-.publicidad{
-    border:1px solid red;
-    margin-top:1%;
-    min-height:80px;
+.publicidadori{
+
+    margin-top:0.5%;
     padding-left:8%;
-    padding-right:8%;
+    clear:both;
+    border-top: 1px solid gray;
 }
-.publicidad li {
+.publicidad {
+
+    width:20%;
     float:left;
-    margin-right:5%;
+    margin-right:4%;
+ 
+    height:200px;
 }
-.pg{
-    width:60px;
+.izq1{
+    vertical-align:central;
 }
-.maestro{
-    width: 200px;
+.publicidad1{
+    float:left;
+      width:20%;
+      margin-right:4%;
 }
-.sodimac{
-    width:60px;
+.publicidad2{
+    float:left;
+      width:20%;
+      margin-right:4%;
+ 
+}
+.publicidad3{
+    float:left;
+      width:20%;
 }
 
+
+
+/*comentarios*/
+.comentarios{
+    clear:both;
+}
+
+
+/*servicio pedidos*/
+.ser_pedidos{
+    padding-left:8%;
+    padding-right:8%;
+    
+    border-top:2px solid gray;
+    text-align:center;
+    background-color:#F3F6F6;
+    height:680px;
+}
+.ser_pedidos h1{
+    font-size:40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top:4%;
+    margin-bottom:4%;
+    color:#50666B;
+
+}
+.ser1{
+    position:relative;
+    margin-bottom:7%;
+}
+.ser1 div{
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin-top:40%;
+    margin-left:4%;
+    background-color:#fff;
+    width:60%;
+    height:40px;
+    display:table;
+}
+.ser_centro div{
+    margin-left:7%;
+}
+.ser1 img{
+    width:310px;
+    height:210px;
+}
+.ser1 a{
+   display:table-cell;
+   vertical-align:middle;
+  padding-left:2%;
+   font-size:13px;
+   font-weight:bold;
+   text-decoration:none;
+}
+.ser1 a:hover{
+    background-color:#11999E;
+    color:#fff;
+}
+
+
+.ser_izq{
+    float:left;
+    width:30%;
+   
+    
+}
+.ser_derecha{
+    float:right;
+    width:30%;
+ 
+  
+}
+.ser_centro{
+    margin-left:33%;
+    margin-right:33%;
+   
+   
+}
+.informe{
+    padding-left:12%;
+    padding-right:12%;
+    text-align:center;
+    border-top:0.5px solid gray;
+}
+.informe img{
+    width:100%;
+}
+.informe p{
+    line-height: 24px;
+}
+.inf_izq{
+    width:50%;
+    float:left;
+
+}
+.izq_izq{
+    float:left;
+    width:40%;
+
+
+}
+.der_der{
+    margin-left:40%;
+}
+.inf_der{
+    margin-left:55%;
+}
 
 
 

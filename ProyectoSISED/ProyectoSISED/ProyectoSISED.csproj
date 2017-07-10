@@ -96,6 +96,7 @@
     <Content Include="Js\menuIni.js" />
     <Content Include="Postula.aspx" />
     <Content Include="PreguntasFrecuentes.aspx" />
+    <Content Include="publicidad.xml" />
     <Content Include="QuienesSomos.aspx" />
     <Content Include="Registrarte.aspx" />
     <Content Include="Servicios.aspx" />

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://www.pgshop.com/on/demandware.static/Sites-PGShopUS-Site/-/default/v1499431329373/themes/pgshop/images/batch1/large-logo-pgeshop.png?1361912294</ImageUrl>
+    <NavigateUrl>www.pg.com/es_LATAM/PE/</NavigateUrl>
+    <AlternateText>Ad for Contoso, Ltd. Web site</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>imagenes/promart.png</ImageUrl>
+    <NavigateUrl>http://www.promart.pe/</NavigateUrl>
+    <AlternateText>Ad for ASP.NET Web site</AlternateText>
+    <Impressions>50</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.pgshop.com/on/demandware.static/Sites-PGShopUS-Site/-/default/v1499431329373/themes/pgshop/images/batch1/large-logo-pgeshop.png?1361912294</ImageUrl>
+    <NavigateUrl>www.pg.com/es_LATAM/PE/</NavigateUrl>
+    <AlternateText>Ad for Contoso, Ltd. Web site</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+  </Advertisements>

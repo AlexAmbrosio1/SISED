@@ -166,18 +166,140 @@
         </div>
 
     </section>
+    <section class="publicidadori">
     <section class="publicidad">
-        <nav>
-            <ul>
-                <li><a href="#"><img src="http://news.pg.com/sites/pg.newshq.businesswire.com/files/logo/image/PGPhaseLogo.jpg" class="pg"/></a></li>
-                <li><a href="#"><img src="http://www.maestro.com.pe/maestro/application/themes/maestro/assets/image/v2/logo.png" class="maestro"/></a></li>
-                <li><a href="#"><img src="http://sodimac.scene7.com/is/image/SodimacCL/sodimaclogofacebook" class="sodimac"/></a></li>
-                <li><a href="#"><img src="#" /></a></li>
-                <li><a href="#"><img src="#" /></a></li>
-            </ul>
-        </nav>
+        <div class="izq1">
+        <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1" />
+
+        <asp:XmlDataSource runat="server" ID="XmlDataSource1" DataFile="~/publicidad.xml">
+
+        </asp:XmlDataSource>
+        </div>
+
+     </section>
+
+       <section class="publicidad1">
+        <div class="izq1">
+        <asp:AdRotator ID="AdRotator2" runat="server" DataSourceID="XmlDataSource1" />
+
+        <asp:XmlDataSource runat="server" ID="XmlDataSource2" DataFile="~/publicidad.xml">
+
+        </asp:XmlDataSource>
+        </div>
+
+     </section>
+       <section class="publicidad2">
+        <div class="izq1">
+        <asp:AdRotator ID="AdRotator3" runat="server" DataSourceID="XmlDataSource1" />
+
+        <asp:XmlDataSource runat="server" ID="XmlDataSource3" DataFile="~/publicidad.xml">
+
+        </asp:XmlDataSource>
+        </div>
+
+     </section>
+       <section class="publicidad3">
+        <div class="izq1">
+        <asp:AdRotator ID="AdRotator4" runat="server" DataSourceID="XmlDataSource1" />
+
+        <asp:XmlDataSource runat="server" ID="XmlDataSource4" DataFile="~/publicidad.xml">
+
+        </asp:XmlDataSource>
+        </div>
+
+     </section>
+
+        </section>
+
+
+
+
+    <section class="comentarios">
+        <h6>¿Qué opinan algunos de nuestros clientes?</h6>
+        <p>Todos los limpiadores tienen perfiles públicos con comentarios y valoraciones realizadas por otros usuarios</p>
+        <div>
+          
+        </div>
     </section>
-    <section class="decir">
-        FALTA
+
+
+
+
+    <section class="ser_pedidos">
+        <h1>Servicios más pedidos</h1>
+        <div class="ser_izq">
+            <div class="ser1">
+                <img src="http://www.eldiaonline.com/wp-content/uploads/2017/04/Empleada-dom%C3%A9stica.jpg"  />
+                <div>
+                    <a href="#">Empleada Doméstica</a>
+                </div>
+            </div>
+
+             <div class="ser1">
+                <img src="http://fundacion.eidos1.netdna-cdn.com/wp-content/uploads/2016/07/Cuidador-de-adulto-mayor.jpg"  />
+                <div>
+                    <a href="#">Cuidados Adultos Mayores</a>
+                </div>
+            </div>
+        </div>
+        <div class="ser_derecha">
+                <div class="ser1">
+                <img src="http://www.revistametroobra.com.ar/files.php?file=notas/plomero-gasista.jpg"  />
+                <div>
+                    <a href="#">Gasista</a>
+                </div>
+            </div>
+
+             <div class="ser1">
+                <img src="https://slatwall.ie/wp-content/uploads/2017/03/electricistas-madrid-24horas1.jpg"  />
+                <div>
+                    <a href="#">Electricista</a>
+                </div>
+            </div>
+        </div>
+        <div class="ser_centro">
+                <div class="ser1">
+                <img src="https://static-u.iguanafix.com/images/classified/7441-1421518332807.jpg"  />
+                <div>
+                    <a href="#">Plomero</a>
+                </div>
+            </div>
+
+             <div class="ser1">
+                <img src="https://40.media.tumblr.com/707dd4a8291a7d638095a81cb687059b/tumblr_nsz83skaOZ1r1k84fo1_500.jpg"   />
+                <div>
+                    <a href="#">Arreglos Generales</a>
+                </div>
+            </div>
+            
+        </div>
+       <span><a class="boton" href="" target="_blank">TODOS LOS SERVICIOS</a></span>
+
+    </section>
+
+    <section class="informe">
+        <h1>¿Qúé incluye cada servicio?</h1>
+        <div class="inf_izq">
+            <div class="izq_izq"> 
+                <img src="https://cdn1.iconfinder.com/data/icons/business-343/128/business-06-256.png" />
+            </div>
+            <div class="der_der">
+                <h2>Empleada Doméstica</h2>
+                <p>Limpieza de habitaciones (barrer, trapear, sacudir, etc), limpieza de baños y cocina, lavado y planchado de ropa (si se aclara en la solicitud), cocina básica (si se aclara en la solicitud). No incluye artículos de limpieza. El cliente deberá proveerlos.</p>
+            </div>
+            
+        </div>
+
+
+          <div class="inf_der">
+            <div class="izq_izq"> 
+                <img src="https://cdn1.iconfinder.com/data/icons/business-343/128/business-05-256.png"  />
+            </div>
+            <div class="der_der">
+                <h2>Mantenimiento</h2>
+                <p>Nuestros empleados se presentarán con las herramientas necesarias para realizar el trabajo. No incluye materiales ni gastos de flete. El costo de los materiales correrá por parte del cliente.</p>
+            </div>
+            
+        </div>
     </section>
 </asp:Content>
